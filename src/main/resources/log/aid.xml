@@ -1,0 +1,2904 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<log>
+<logentry
+   revision="58409">
+<author>tangcongcong</author>
+<date>2018-10-16T07:55:00.835875Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config-yn.properties</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config.properties</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/common/controller/CommonController.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/elicense/service/ElicenseService.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/elicense/util/ElicenseUtil.java</path>
+</paths>
+<msg>新增接口：小程序扫描二维码后，获取二维码的签名结果。</msg>
+</logentry>
+<logentry
+   revision="56940">
+<author>yuantao</author>
+<date>2018-08-22T04:45:45.718706Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/boc/service/BOCUSBKeyService.java</path>
+</paths>
+<msg>打印aid测试数据
+</msg>
+</logentry>
+<logentry
+   revision="56939">
+<author>yuantao</author>
+<date>2018-08-22T03:19:46.991639Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/abc/service/ABCUSBKeyService.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/boc/service/BOCUSBKeyService.java</path>
+</paths>
+<msg>打印aid测试数据
+</msg>
+</logentry>
+<logentry
+   revision="56864">
+<author>yuantao</author>
+<date>2018-08-21T01:13:13.897348Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/abc/service/ABCUSBKeyService.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/boc/service/BOCUSBKeyService.java</path>
+</paths>
+<msg>银行返回参数标准json化</msg>
+</logentry>
+<logentry
+   revision="56863">
+<author>yuantao</author>
+<date>2018-08-21T01:11:53.604007Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/cmcc/controller/CMCCController.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/cmcc/service/CMCCService.java</path>
+</paths>
+<msg>中国移动返回状态码完善，移动定制短信模板</msg>
+</logentry>
+<logentry
+   revision="56602">
+<author>yuantao</author>
+<date>2018-08-09T09:31:06.070974Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config-yn-dev.properties</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config-yn.properties</path>
+<path
+   kind="dir"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/abc</path>
+<path
+   kind="dir"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/abc/controller</path>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/abc/controller/ABCUSBKeyController.java</path>
+<path
+   kind="dir"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/abc/service</path>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/abc/service/ABCUSBKeyService.java</path>
+<path
+   kind="dir"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/abc/util</path>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/abc/util/RSACoder.java</path>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/abc/util/RSACoderTest.java</path>
+</paths>
+<msg>中国农业银行认证对接</msg>
+</logentry>
+<logentry
+   revision="56596">
+<author>yuantao</author>
+<date>2018-08-09T09:11:41.525722Z</date>
+<paths>
+<path
+   kind="file"
+   action="D">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/BocUtil.jar</path>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/bcprov-jdk14-141.jar</path>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/bcprov-jdk15on-1.54.jar</path>
+<path
+   kind="dir"
+   action="D">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/boc/bean</path>
+<path
+   kind="dir"
+   action="D">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/boc/constant</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/boc/controller/BOCUSBKeyController.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/boc/service/BOCUSBKeyService.java</path>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/boc/util/BocService.java</path>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/boc/util/CryptEncryptor.java</path>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/boc/util/IEncryptor.java</path>
+<path
+   kind="file"
+   copyfrom-path="/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/boc/bean/ResponsePrivatePart.java"
+   copyfrom-rev="56257"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/common/bean/PrivateComBeanFromBank.java</path>
+<path
+   kind="file"
+   copyfrom-path="/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/boc/bean/RequestPrivatePart.java"
+   copyfrom-rev="56257"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/common/bean/PrivateComBeanToBank.java</path>
+<path
+   kind="file"
+   copyfrom-path="/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/boc/bean/ResponseToIC.java"
+   copyfrom-rev="56257"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/common/bean/PublicComBeanFromBank.java</path>
+<path
+   kind="file"
+   copyfrom-path="/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/boc/bean/RequestFromIC.java"
+   copyfrom-rev="56257"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/common/bean/PublicComBeanToBank.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/common/bean/VerifyResult.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/common/constant/GlobalConstants.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/common/controller/CommonController.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/common/util/FormatUtil.java</path>
+</paths>
+<msg>云南中行认证消除和民生银行的冲突</msg>
+</logentry>
+<logentry
+   revision="56273">
+<author>lizhuoyuan</author>
+<date>2018-07-31T03:56:57.020939Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/cet/cert_1.cer</path>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/cet/certcs_1.cer</path>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/cet/certcs_2.pfx</path>
+<path
+   kind="file"
+   action="D">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/cet/netbankrsa2048.cer</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/cmbc/service/CMBCUSBKeyService.java</path>
+</paths>
+<msg>cmbc修改配置</msg>
+</logentry>
+<logentry
+   revision="56247">
+<author>yuantao</author>
+<date>2018-07-30T04:22:13.631230Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/cmcc/controller/CMCCController.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/cmcc/service/CMCCService.java</path>
+</paths>
+<msg>移动认证匹配返回身份证和姓名</msg>
+</logentry>
+<logentry
+   revision="56246">
+<author>yuantao</author>
+<date>2018-07-30T04:19:55.736588Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config-yn-dev.properties</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config-yn.properties</path>
+</paths>
+<msg>广发银行以及民生银行云南配置找回</msg>
+</logentry>
+<logentry
+   revision="55980">
+<author>yuantao</author>
+<date>2018-07-19T00:43:46.508868Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/BocUtil.jar</path>
+<path
+   kind="file"
+   action="D">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/bcprov-jdk14-141.jar</path>
+<path
+   kind="file"
+   action="D">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/bcprov-jdk15on-1.54.jar</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/weblogic.xml</path>
+<path
+   kind="dir"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/compile</path>
+<path
+   kind="dir"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/compile/heb</path>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/compile/heb/bcprov-jdk14-141.jar</path>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/compile/heb/bcprov-jdk15on-1.54.jar</path>
+<path
+   kind="dir"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/compile/yn</path>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/compile/yn/BocUtil.jar</path>
+</paths>
+<msg>1.中行认证jar冲突解决方案
+2.新增compile文件夹提供各地不同的部署编译环境</msg>
+</logentry>
+<logentry
+   revision="55868">
+<author>yuantao</author>
+<date>2018-07-15T09:55:01.574938Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/boc/service/BOCUSBKeyService.java</path>
+</paths>
+<msg>增加日志以及对应的字段判断</msg>
+</logentry>
+<logentry
+   revision="55867">
+<author>yuantao</author>
+<date>2018-07-15T07:31:49.033046Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/common/controller/CommonController.java</path>
+</paths>
+<msg>放开中国银行的认证入口</msg>
+</logentry>
+<logentry
+   revision="55866">
+<author>yuantao</author>
+<date>2018-07-15T07:29:26.729596Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/cmcc/service/CMCCService.java</path>
+</paths>
+<msg>中国移动的认证链接下发</msg>
+</logentry>
+<logentry
+   revision="55798">
+<author>yuantao</author>
+<date>2018-07-12T07:05:10.738978Z</date>
+<paths>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/BocUtil.jar</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config-yn-dev.properties</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config-yn.properties</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/boc</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/boc/bean</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/boc/bean/RequestFromIC.java</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/boc/bean/RequestPrivatePart.java</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/boc/bean/ResponsePrivatePart.java</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/boc/bean/ResponseToIC.java</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/boc/constant</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/boc/controller</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/boc/controller/BOCUSBKeyController.java</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/boc/service</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/boc/service/BOCUSBKeyService.java</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/boc/util</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/ccb/service/CCBUSBKeyService.java</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/cmcc</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/cmcc/bean</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/cmcc/bean/Information.java</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/cmcc/bean/ReqBean.java</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/cmcc/bean/ReqInfo.java</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/cmcc/bean/RespBean.java</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/cmcc/controller</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/cmcc/controller/CMCCController.java</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/cmcc/service</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/cmcc/service/CMCCService.java</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/cmcc/util</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/cmcc/util/RealNameMsDesPlus.java</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/cmcc/util/Rsa.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/common/constant/GlobalConstants.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/common/controller/CommonController.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/common/util/FormatUtil.java</path>
+</paths>
+<msg>更新中行认证jar包，解决冲突问题
+移动认证配置</msg>
+</logentry>
+<logentry
+   revision="54227">
+<author>yuantao</author>
+<date>2018-05-29T08:56:45.761145Z</date>
+<paths>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/CCB_CCVEAService_v1.1.0001.jar</path>
+</paths>
+<msg>-建行认证：云南jar包</msg>
+</logentry>
+<logentry
+   revision="53987">
+<author>lizhenjian</author>
+<date>2018-05-23T05:51:14.448620Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config-sc-dev.properties</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config-sc.properties</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/signonline/constant/SignonlineContants.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/signonline/controller/SignatureController.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/signonline/service/SignatureService.java</path>
+</paths>
+<msg>新增四川个体的易企签签名，但目前个体的路径还没确定，注意后续调整。</msg>
+</logentry>
+<logentry
+   revision="53985">
+<author>lizhenjian</author>
+<date>2018-05-23T05:37:45.113185Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config-yn-dev.properties</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/cgb/controller/CGBUSBKeyController.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/common/constant/GlobalConstants.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/common/controller/CommonController.java</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/elicense</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/elicense/bean</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/elicense/bean/ElicenseResult.java</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/elicense/constant</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/elicense/constant/ElicenseConstant.java</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/elicense/service</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/elicense/service/ElicenseService.java</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/elicense/util</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/elicense/util/ElicenseUtil.java</path>
+</paths>
+<msg>新增，普华电子营业执照方式签名</msg>
+</logentry>
+<logentry
+   revision="53554">
+<author>caomengying</author>
+<date>2018-05-07T03:21:33.923432Z</date>
+<paths>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/cloudsign-open-sdk-jar-with-dependencies(1).jar</path>
+<path
+   action="D"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/fastjson-1.1.41.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/fastjson-1.2.41.jar</path>
+<path
+   action="D"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/signit-open-sdk.jar</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config-sc-dev.properties</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config.properties</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/signonline/bean/SigerInfo.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/signonline/constant/SignonlineContants.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/signonline/controller/SignatureController.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/signonline/service/SignatureService.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/signonline/util/EnvelopeUtil.java</path>
+</paths>
+<msg>调整四川易企签签名流程，签名人注册用公司统一码或者自然人身份证号正在做为区别。</msg>
+</logentry>
+<logentry
+   revision="52451">
+<author>lizhuoyuan</author>
+<date>2018-03-29T06:40:01.334584Z</date>
+<paths>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/cet/cert_1.cer</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/cet/cert_2.pfx</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/cet/netbankrsa2048.cer</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/UNION_JDK1.4_V3.0.jar</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config-heb.properties</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config-yn-dev.properties</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config-yn.properties</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/ccb/service/CCBUSBKeyService.java</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/cmbc</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/cmbc/cotroller</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/cmbc/cotroller/CMBCUSBKeyController.java</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/cmbc/service</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/cmbc/service/CMBCUSBKeyService.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/common/constant/GlobalConstants.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/common/controller/CommonController.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/common/util/FormatUtil.java</path>
+</paths>
+<msg>增加民生银行配置和云南开通建行的配置</msg>
+</logentry>
+<logentry
+   revision="50093">
+<author>lizhuoyuan</author>
+<date>2018-01-02T05:55:39.421298Z</date>
+<paths>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/cet</path>
+</paths>
+<msg>增加证书目录文件</msg>
+</logentry>
+<logentry
+   revision="50084">
+<author>lizhuoyuan</author>
+<date>2018-01-02T01:06:26.746420Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/ccb/ccbchina/CCBJsonUtils.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/ccb/service/CCBUSBKeyService.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/citic/controller/CITICUSBKeyController.java</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/citic/helper/CITICJsonUtils.java</path>
+<path
+   action="D"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/citic/helper/JsonUtils.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/citic/service/CITICUSBKeyService.java</path>
+</paths>
+<msg>建行对接以及中信银行对接</msg>
+</logentry>
+<logentry
+   revision="48978">
+<author>lizhenjian</author>
+<date>2017-11-27T10:09:13.198920Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config-yn.properties</path>
+</paths>
+<msg>云南农信不能直接将数据返回到我工商的地址上，因此需要将地址改为他们的内网地址，他们根据地址做映射到我们工商的地址，return_url改为：http://172.16.0.66/aid/ynrcc/get_auth_result。</msg>
+</logentry>
+<logentry
+   revision="48856">
+<author>lizhuoyuan</author>
+<date>2017-11-23T08:36:33.633741Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/CCB_CCVEAService_v1.0.0002.jar</path>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/cryppkg-1.3 .jar</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config-heb.properties</path>
+<path
+   kind="dir"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/ccb</path>
+<path
+   kind="dir"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/ccb/ccbchina</path>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/ccb/ccbchina/CCBJsonUtils.java</path>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/ccb/ccbchina/CCBSecureUtils.java</path>
+<path
+   kind="dir"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/ccb/controller</path>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/ccb/controller/CCBUSBKeyController.java</path>
+<path
+   kind="dir"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/ccb/service</path>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/ccb/service/CCBUSBKeyService.java</path>
+<path
+   kind="dir"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/citic</path>
+<path
+   kind="dir"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/citic/controller</path>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/citic/controller/CITICUSBKeyController.java</path>
+<path
+   kind="dir"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/citic/helper</path>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/citic/helper/JsonUtils.java</path>
+<path
+   kind="dir"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/citic/service</path>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/citic/service/CITICUSBKeyService.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/common/constant/GlobalConstants.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/common/controller/CommonController.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/common/util/FormatUtil.java</path>
+</paths>
+<msg>增加建设银行和中信银行的对接</msg>
+</logentry>
+<logentry
+   revision="48736">
+<author>lizhenjian</author>
+<date>2017-11-21T06:07:57.666173Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config-yn.properties</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config.properties</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/common/util/XmlUtil.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/util/DataUtil.java</path>
+</paths>
+<msg>云南工行认证可以定义偏移时间（单位：分钟），因为当服务器时间跟北京时间超过5分钟的误差会造成签名、认证报错。
+增加根据MAP拼接XML的通用方法。</msg>
+</logentry>
+<logentry
+   revision="48735">
+<author>lizhenjian</author>
+<date>2017-11-21T06:01:33.312698Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/cgb/service/CGBUSBKeyService.java</path>
+</paths>
+<msg>code review</msg>
+</logentry>
+<logentry
+   revision="48734">
+<author>lizhenjian</author>
+<date>2017-11-21T06:00:11.428155Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/cgb/cgbchina/JSONHelper/JsonHelper.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/cgb/service/CGBUSBKeyService.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/common/util/DataUtil.java</path>
+</paths>
+<msg>云南广发银行对接</msg>
+</logentry>
+<logentry
+   revision="45873">
+<author>lizhenjian</author>
+<date>2017-09-22T00:56:29.330084Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/puserauthsdk.jar</path>
+</paths>
+<msg>更换农信的jar包</msg>
+</logentry>
+<logentry
+   revision="45872">
+<author>lizhenjian</author>
+<date>2017-09-22T00:55:47.631211Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/mps/util/TLSSocketConnectionFactory.java</path>
+</paths>
+<msg>该类由于jar包冲突，报错，暂时用不上，先把报错的注释掉</msg>
+</logentry>
+<logentry
+   revision="45871">
+<author>lizhenjian</author>
+<date>2017-09-22T00:53:09.743334Z</date>
+<paths>
+<path
+   kind="file"
+   action="D">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/core/util/DataUtil.java</path>
+<path
+   kind="file"
+   action="D">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/core/util/FormatUtil.java</path>
+<path
+   kind="file"
+   action="D">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/core/util/JsonUtil.java</path>
+<path
+   kind="file"
+   action="D">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/core/util/SMSUtil.java</path>
+<path
+   kind="file"
+   action="D">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/core/util/XmlUtil.java</path>
+</paths>
+<msg>少提交了一个文件夹</msg>
+</logentry>
+<logentry
+   revision="45870">
+<author>lizhenjian</author>
+<date>2017-09-22T00:51:26.549153Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/SADK-3.2.1.3.jar</path>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/cgbjson.jar</path>
+<path
+   kind="file"
+   action="D">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/puserauthsdk.jar</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config-yn-dev.properties</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config-yn.properties</path>
+<path
+   kind="dir"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/cgb</path>
+<path
+   kind="dir"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/cgb/bean</path>
+<path
+   kind="dir"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/cgb/cgbchina</path>
+<path
+   kind="dir"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/cgb/cgbchina/JSONHelper</path>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/cgb/cgbchina/JSONHelper/JsonHelper.java</path>
+<path
+   kind="dir"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/cgb/cgbchina/SM2</path>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/cgb/cgbchina/SM2/KeyHelper.java</path>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/cgb/cgbchina/SM2/PrivateKeyHelper.java</path>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/cgb/cgbchina/SM2/PublicKeyHelper.java</path>
+<path
+   kind="dir"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/cgb/controller</path>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/cgb/controller/CGBUSBKeyController.java</path>
+<path
+   kind="dir"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/cgb/service</path>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/cgb/service/CGBUSBKeyService.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/common/constant/GlobalConstants.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/common/controller/CommonController.java</path>
+</paths>
+<msg>广发银行对接初步开发</msg>
+</logentry>
+<logentry
+   revision="45389">
+<author>lizhenjian</author>
+<date>2017-09-12T09:36:27.804304Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/bhb/service/BHBUSBKeyService.java</path>
+</paths>
+<msg>将一下共有的工具类，转移到common下面</msg>
+</logentry>
+<logentry
+   revision="45388">
+<author>lizhenjian</author>
+<date>2017-09-12T09:36:01.689858Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/common/bean/VerifyResult.java</path>
+</paths>
+<msg>调整返回数据类型feedback，和additionalContent的数据类型</msg>
+</logentry>
+<logentry
+   revision="45386">
+<author>lizhenjian</author>
+<date>2017-09-12T09:34:54.141740Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/house/service/HouseInfoService.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/service/ICBCUSBkeyService.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/util/DataUtil.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/mps/controller/MpsController.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/mps/service/MpsService.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/signonline/controller/SignatureController.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/signonline/service/SignatureService.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/ynnx/service/YNNXUSBKeyService.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/ynnx/util/DataUtil.java</path>
+</paths>
+<msg>将一下共有的工具类，转移到common下面</msg>
+</logentry>
+<logentry
+   revision="45381">
+<author>lizhenjian</author>
+<date>2017-09-12T09:26:58.481304Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/common/util/DataUtil.java</path>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/common/util/FormatUtil.java</path>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/common/util/JsonUtil.java</path>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/common/util/SMSUtil.java</path>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/common/util/XmlUtil.java</path>
+</paths>
+<msg>将一下共有的工具类，转移到common下面</msg>
+</logentry>
+<logentry
+   revision="44940">
+<author>lizhenjian</author>
+<date>2017-09-01T07:13:47.117817Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/ynnx/bean</path>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/ynnx/bean/RetInfo.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/ynnx/controller/YNNXUSBKeyController.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/ynnx/service/YNNXUSBKeyService.java</path>
+</paths>
+<msg>云南农信，在银行回调时，响应改为json方式。</msg>
+</logentry>
+<logentry
+   revision="44939">
+<author>lizhenjian</author>
+<date>2017-09-01T07:11:08.917939Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config-yn-dev.properties</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config-yn.properties</path>
+</paths>
+<msg>修改工行测试环境serv.icbc.1.url
+修改云南农信mercode
+云南农信认证时，如果forward_url为空，则默认为登陆页面</msg>
+</logentry>
+<logentry
+   revision="44781">
+<author>lizhenjian</author>
+<date>2017-08-28T23:19:02.440964Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/controller/ICBCUSBkeyController.java</path>
+</paths>
+<msg>删除误提交的代码</msg>
+</logentry>
+<logentry
+   revision="44780">
+<author>lizhenjian</author>
+<date>2017-08-28T23:18:27.247302Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config-yn-dev.properties</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/ynnx/service/YNNXUSBKeyService.java</path>
+</paths>
+<msg>将thirdParty放入AdditionalContent中，保证认证后返回
+调整云南工行测试环境参数配置</msg>
+</logentry>
+<logentry
+   revision="44716">
+<author>lizhenjian</author>
+<date>2017-08-25T13:17:52.922351Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/esw-secure-0.9.2.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/fastjson-1.1.41.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/puserauthsdk.jar</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config-yn-dev.properties</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config-yn.properties</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config.properties</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/xssfilter.properties</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/bhb/service/BHBUSBKeyService.java</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/common</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/common/bean</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/common/bean/VerifyResult.java</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/common/constant</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/common/constant/GlobalConstants.java</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/common/controller</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/common/controller/CommonController.java</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/common/service</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/common/util</path>
+<path
+   action="D"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/core/bean/VerifyResult.java</path>
+<path
+   action="D"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/core/constant/GlobalConstants.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/core/controller/LoginController.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/core/controller/VerifyController.java</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/core/util/DataUtil.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/core/util/FormatUtil.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/demo/service/ThirdpartSimpleLoginService.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/bean/Result.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/controller/ICBCUSBkeyController.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/service/ICBCUSBkeyService.java</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/ynnx</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/ynnx/constant</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/ynnx/constant/BusinessConstants.java</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/ynnx/controller</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/ynnx/controller/YNNXUSBKeyController.java</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/ynnx/service</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/ynnx/service/YNNXUSBKeyService.java</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/ynnx/util</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/ynnx/util/DataUtil.java</path>
+</paths>
+<msg>云南农信对接接口开发
+银行对接统一接口开发</msg>
+</logentry>
+<logentry
+   revision="44191">
+<author>lizhenjian</author>
+<date>2017-08-03T08:13:12.403156Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/esw-core-0.9.2.jar</path>
+</paths>
+<msg>替换核心包，解决HttpClientUtil，从url上获取参数时，逻辑有误问题。</msg>
+</logentry>
+<logentry
+   revision="43721">
+<author>liweijie</author>
+<date>2017-07-17T09:50:20.492479Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config-heb.properties</path>
+</paths>
+<msg>  河北银行配置文件改为河北服务器的地址</msg>
+</logentry>
+<logentry
+   revision="43565">
+<author>lizhenjian</author>
+<date>2017-07-10T07:07:52.143683Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config-yn-dev.properties</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config-yn.properties</path>
+</paths>
+<msg>修改云南测试、正式环境的地址</msg>
+</logentry>
+<logentry
+   revision="43464">
+<author>lizhenjian</author>
+<date>2017-07-05T14:26:54.818783Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config-sc-dev.properties</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config-sc.properties</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config.properties</path>
+</paths>
+<msg>将易企签的测试环境地址，改为工商内部的测试地址。
+将四川正式环境的回调地址，改为负载均衡地址。</msg>
+</logentry>
+<logentry
+   revision="43463">
+<author>lizhenjian</author>
+<date>2017-07-05T14:21:40.946232Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/signonline/service/SignatureService.java</path>
+</paths>
+<msg>增加信封完成、未签提醒时的短信发送功能。</msg>
+</logentry>
+<logentry
+   revision="43462">
+<author>lizhenjian</author>
+<date>2017-07-05T14:19:37.347215Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/signonline/util/EnvelopeUtil.java</path>
+</paths>
+<msg>1、删除部分不必要的输出代码
+2、修改bug,有4个以上的签名人时，对某个签名域设置签名人的时候，会多出来一个。原因：filterRecipients方法有问题。</msg>
+</logentry>
+<logentry
+   revision="43171">
+<author>lizhenjian</author>
+<date>2017-06-24T16:30:37.655659Z</date>
+<paths>
+<path
+   action="D"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/ISFJ_v2_0_119_2_BAISC_JDK14.jar</path>
+<path
+   action="D"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/icbc.jar</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/signit-open-sdk.jar</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config-sc-dev.properties</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config-sc.properties</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/core/util/SMSUtil.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/house/util/HouseUtil.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/mps/util/TLSSocketConnectionFactory.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/signonline/service/SignatureService.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/signonline/util/EnvelopeUtil.java</path>
+</paths>
+<msg>1、增加短信发送工具类，增加aid中发送短信的功能，在接收到易企签通知后发生短信给签名人和申请人
+2、修改上传文件给易企签的方法，改为单个文件上传，并更新SDK，改善文件上传速度。</msg>
+</logentry>
+<logentry
+   revision="42909">
+<author>lizhenjian</author>
+<date>2017-06-15T18:11:27.455086Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/signonline/service/SignatureService.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/signonline/util/EnvelopeUtil.java</path>
+</paths>
+<msg>修改易企签返回业务系统方式
+增加预览全部链接返回</msg>
+</logentry>
+<logentry
+   revision="42814">
+<author>liweijie</author>
+<date>2017-06-13T12:41:16.139169Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/bhb/service/BHBUSBKeyService.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/bhb/util/PKCS7Tool.java</path>
+</paths>
+<msg>河北银行接口调整解决河北银行字符集问题</msg>
+</logentry>
+<logentry
+   revision="42789">
+<author>lizhenjian</author>
+<date>2017-06-13T07:23:55.671047Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config-sc-dev.properties</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config-sc.properties</path>
+</paths>
+<msg>易企签host、port配置
+更新返回netqydj的回调地址</msg>
+</logentry>
+<logentry
+   revision="42786">
+<author>lizhenjian</author>
+<date>2017-06-13T07:19:09.582145Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/signit-open-sdk.jar</path>
+</paths>
+<msg>易企签新版的SDK,解决签名人区域小于200时报错bug。</msg>
+</logentry>
+<logentry
+   revision="42784">
+<author>lizhenjian</author>
+<date>2017-06-13T07:17:46.215598Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/signonline/bean/SigerInfo.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/signonline/controller/SignatureController.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/signonline/service/SignatureService.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/signonline/util/EnvelopeUtil.java</path>
+</paths>
+<msg>用户注册放在开启信封的时候注册
+修改针对某个区域添加签名人的逻辑
+修改接收通知时报空指针的bug.
+</msg>
+</logentry>
+<logentry
+   revision="42674">
+<author>liweijie</author>
+<date>2017-06-11T14:31:51.665825Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/bhb/controller/BHBUSBKeyController.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/bhb/service/BHBUSBKeyService.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/bhb/util/DataUtil.java</path>
+</paths>
+<msg>河北银行验签</msg>
+</logentry>
+<logentry
+   revision="42662">
+<author>liweijie</author>
+<date>2017-06-10T08:55:56.229643Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/bhb/controller/BHBUSBKeyController.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/bhb/service/BHBUSBKeyService.java</path>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/bhb/util/StringUncodeUtil.java</path>
+</paths>
+<msg>河北银行接口调整</msg>
+</logentry>
+<logentry
+   revision="42608">
+<author>liweijie</author>
+<date>2017-06-09T02:59:27.002766Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/bhb/controller/BHBUSBKeyController.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/bhb/service/BHBUSBKeyService.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/bhb/util/DataUtil.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/mps/util/TLSSocketConnectionFactory.java</path>
+</paths>
+<msg>回调业务系统</msg>
+</logentry>
+<logentry
+   revision="42576">
+<author>lizhenjian</author>
+<date>2017-06-08T09:05:07.289690Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/bhb/controller/BHBUSBKeyController.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/bhb/service/BHBUSBKeyService.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/core/constant/GlobalConstants.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/core/util/FormatUtil.java</path>
+</paths>
+<msg>初步完善河北银行返回业务系统逻辑。</msg>
+</logentry>
+<logentry
+   revision="42491">
+<author>liweijie</author>
+<date>2017-06-07T05:46:32.619395Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config-heb.properties</path>
+</paths>
+<msg>河北银行接口参数</msg>
+</logentry>
+<logentry
+   revision="42483">
+<author>liweijie</author>
+<date>2017-06-07T03:00:30.613497Z</date>
+<paths>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/PKIBASE.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/bcmail-jdk14-141.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/bcprov-jdk14-141.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/jdom2-2.0.6.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/license-api.jar</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/bhb</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/bhb/bean</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/bhb/bean/BHBInfoVo.java</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/bhb/controller</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/bhb/controller/BHBUSBKeyController.java</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/bhb/service</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/bhb/service/BHBUSBKeyService.java</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/bhb/util</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/bhb/util/DataUtil.java</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/bhb/util/PKCS7Tool.java</path>
+</paths>
+<msg>河北银行对接</msg>
+</logentry>
+<logentry
+   revision="42481">
+<author>lizhenjian</author>
+<date>2017-06-07T02:18:46.403499Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/signit-open-sdk.jar</path>
+</paths>
+<msg>设置签名区域的方法修改，签名人之间取消10px间隔。</msg>
+</logentry>
+<logentry
+   revision="42420">
+<author>lizhenjian</author>
+<date>2017-06-04T18:37:35.513937Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/signit-open-sdk.jar</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config-sc-dev.properties</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config-sc.properties</path>
+</paths>
+<msg>易企签接口有代码忘记提交了</msg>
+</logentry>
+<logentry
+   revision="42419">
+<author>lizhenjian</author>
+<date>2017-06-04T18:36:19.847403Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/signonline/bean/Result.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/signonline/bean/ResultMsg.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/signonline/bean/SigerInfo.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/signonline/bean/SignAttach.java</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/signonline/bean/SignAttachPosition.java</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/signonline/bean/SignMsg.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/signonline/bean/SignOnLineData.java</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/signonline/bean/SignPosition.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/signonline/constant/SignonlineContants.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/signonline/controller/SignatureController.java</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/signonline/dao</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/signonline/dao/SignatureDao.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/signonline/service/SignatureService.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/signonline/util/EnvelopeUtil.java</path>
+</paths>
+<msg>完善易企签对接接口代码，完善通知信息逻辑，增加用户注册方法</msg>
+</logentry>
+<logentry
+   revision="42391">
+<author>lizhenjian</author>
+<date>2017-06-01T13:29:41.069835Z</date>
+<paths>
+<path
+   action="D"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/cloudsign-open-sdk-jar-with-dependencies.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/signit-open-sdk.jar</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config-sc-dev.properties</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config-sc.properties</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config.properties</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/signonline/bean/ResultMsg.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/signonline/bean/SignAttach.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/signonline/bean/SignAttr.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/signonline/bean/SignOnLineData.java</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/signonline/bean/UserInfo.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/signonline/constant/SignonlineContants.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/signonline/controller/SignatureController.java</path>
+</paths>
+<msg>易企签SDK版本更新，根据根据新SDK调整签名方法
+增加接收通知webhook接口</msg>
+</logentry>
+<logentry
+   revision="42354">
+<author>lizhenjian</author>
+<date>2017-06-01T06:26:00.839647Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/bcprov-jdk15on-1.54.jar</path>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/mps/bean/MpsResponse.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/mps/bean/PersonInfo.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/mps/constant/MpsConstants.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/mps/controller/MpsController.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/mps/service/MpsService.java</path>
+<path
+   kind="dir"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/mps/util</path>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/mps/util/HttpsUtils.java</path>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/mps/util/TLSSocketConnectionFactory.java</path>
+</paths>
+<msg>公安接口完善，解决在在TSL1.2协议版本下，jdk6无法调用https的问题。增加通知接口，接收公安返回的通知。</msg>
+</logentry>
+<logentry
+   revision="42303">
+<author>lizhenjian</author>
+<date>2017-05-27T16:34:14.435924Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config-heb.properties</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config-yn.properties</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config.properties</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/core/bean/HtmlBean.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/controller/ICBCUSBkeyController.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/service/ICBCUSBkeyService.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/util/DataUtil.java</path>
+</paths>
+<msg>1、新增河北工行配置
+2、优化工行验签逻辑，接收通知报文后将验签加入验证流程环节中，必须验签通过后，才能返回正确结果。
+3、增加签名种类verifiedKind配置，各地设置默认的签名种类，并支持从业务系统自定义签名种类。</msg>
+</logentry>
+<logentry
+   revision="41791">
+<author>lizhenjian</author>
+<date>2017-05-17T03:35:45.359385Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/mps</path>
+<path
+   kind="dir"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/mps/bean</path>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/mps/bean/PersonInfo.java</path>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/mps/bean/Result.java</path>
+<path
+   kind="dir"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/mps/constant</path>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/mps/constant/MpsConstants.java</path>
+<path
+   kind="dir"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/mps/controller</path>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/mps/controller/MpsController.java</path>
+<path
+   kind="dir"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/mps/service</path>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/mps/service/MpsService.java</path>
+</paths>
+<msg>公安接口开发</msg>
+</logentry>
+<logentry
+   revision="41651">
+<author>machanggang</author>
+<date>2017-05-12T00:55:38.743449Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/service/ICBCUSBkeyService.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/util/DataUtil.java</path>
+</paths>
+<msg>1. 业务系统传入签名内容，由aid拼接为html
+2. PrintOuter关闭时，增加非空判断</msg>
+</logentry>
+<logentry
+   revision="41578">
+<author>lizhenjian</author>
+<date>2017-05-10T14:20:58.184410Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/bean/Result.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/controller/ICBCUSBkeyController.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/service/ICBCUSBkeyService.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/util/DataUtil.java</path>
+</paths>
+<msg>增加流水号的返回
+增加返回银行消息逻辑
+打印银行通知头部信息，给银行查验问题</msg>
+</logentry>
+<logentry
+   revision="41569">
+<author>machanggang</author>
+<date>2017-05-10T12:04:06.173987Z</date>
+<paths>
+<path
+   kind="file"
+   action="D">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/esw-secure-0.9.1.jar</path>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/esw-secure-0.9.2.jar</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/core/bean/HtmlBean.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/controller/ICBCUSBkeyController.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/conf/spring-mvc.xml</path>
+</paths>
+<msg>增加一个临时方法，接收secureBean参数</msg>
+</logentry>
+<logentry
+   revision="41509">
+<author>shichenyue</author>
+<date>2017-05-09T15:05:28.656547Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/demo/service/ThirdpartLoginService.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/demo/service/ThirdpartSimpleLoginService.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/service/ICBCUSBkeyService.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/signonline/controller/SignatureController.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/signonline/service/SignatureService.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/signonline/util/EnvelopeUtil.java</path>
+</paths>
+<msg>code review</msg>
+</logentry>
+<logentry
+   revision="41494">
+<author>lizhenjian</author>
+<date>2017-05-09T11:42:17.905935Z</date>
+<paths>
+<path
+   action="D"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/esw-core-0.9.1.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/esw-core-0.9.2.jar</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/core/controller/LoginController.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/core/controller/VerifyController.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/house/controller/HouseInfoController.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/controller/ICBCUSBkeyController.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/service/ICBCUSBkeyService.java</path>
+</paths>
+<msg>更新核心包</msg>
+</logentry>
+<logentry
+   revision="41465">
+<author>lizhenjian</author>
+<date>2017-05-09T03:22:08.882027Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/core/constant/GlobalConstants.java</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/core/util/FormatUtil.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/util/DataUtil.java</path>
+</paths>
+<msg>增加AID证件类型转第三方证件类型方法</msg>
+</logentry>
+<logentry
+   revision="41445">
+<author>lizhenjian</author>
+<date>2017-05-08T14:15:05.139029Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config-yn.properties</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/controller/ICBCUSBkeyController.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/service/ICBCUSBkeyService.java</path>
+</paths>
+<msg>工行新接口完善，
+1、暂时注释验签逻辑，
+2、接收的参数名调整。</msg>
+</logentry>
+<logentry
+   revision="41341">
+<author>lizhenjian</author>
+<date>2017-05-06T13:53:07.445608Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config-yn.properties</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/constant/BusinessConstants.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/controller/ICBCUSBkeyController.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/service/ICBCUSBkeyService.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/util/DataUtil.java</path>
+</paths>
+<msg>完善工行新接口，完善验签逻辑。</msg>
+</logentry>
+<logentry
+   revision="41300">
+<author>machanggang</author>
+<date>2017-05-05T06:06:15.006023Z</date>
+<paths>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/constant</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/constant/BusinessConstants.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/service/ICBCUSBkeyService.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/util/DataUtil.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/util/MercertUtil.java</path>
+</paths>
+<msg>1.修改提交工行数据默认编码
+2.提交参数，姓名需要base64编码</msg>
+</logentry>
+<logentry
+   revision="41224">
+<author>lizhenjian</author>
+<date>2017-05-03T16:39:52.295385Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/log4j.properties</path>
+</paths>
+<msg>log日志文件路径配置修改，原路径报错。</msg>
+</logentry>
+<logentry
+   revision="41170">
+<author>lizhenjian</author>
+<date>2017-05-01T17:51:53.403073Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config-yn-dev.properties</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config-yn.properties</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/controller/ICBCUSBkeyController.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/service/ICBCUSBkeyService.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/util/MercertUtil.java</path>
+</paths>
+<msg>完善工行新街口，接收通知消息环节验签逻辑。</msg>
+</logentry>
+<logentry
+   revision="41136">
+<author>lizhenjian</author>
+<date>2017-04-27T18:44:26.445625Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config-sc-dev.properties</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config-sc.properties</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config-yn-dev.properties</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config-yn.properties</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config.properties</path>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/bean/Result.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/controller/ICBCUSBkeyController.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/service/ICBCUSBkeyService.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/util/DataUtil.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/util/MercertUtil.java</path>
+</paths>
+<msg>1、完善接收通知消息的方法，
+2、添加测试环境证书地址</msg>
+</logentry>
+<logentry
+   revision="41135">
+<author>lizhenjian</author>
+<date>2017-04-27T18:38:15.484568Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/axis-1.4.jar</path>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/axis-jaxrpc-1.4.jar</path>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/commons-discovery-0.2.jar</path>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/wsdl4j-1.6.2.jar</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/house/bean/HouseInfo.java</path>
+<path
+   kind="file"
+   copyfrom-path="/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/house/bean/Result.java"
+   copyfrom-rev="40888"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/house/bean/HouseResult.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/house/bean/Result.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/house/controller/HouseInfoController.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/house/service/HouseInfoService.java</path>
+<path
+   kind="dir"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/house/util</path>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/house/util/HouseUtil.java</path>
+</paths>
+<msg>住建厅接口完善及对接的实现。</msg>
+</logentry>
+<logentry
+   revision="41102">
+<author>lizhenjian</author>
+<date>2017-04-26T19:49:30.319725Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/InfosecCrypto_Java1_02_JDK14+.jar</path>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/icbc-api-sdk-cop-io.jar</path>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/icbc-api-sdk-cop.jar</path>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/icbc-ca.jar</path>
+</paths>
+<msg>1、云南新工行接口jar包
+</msg>
+</logentry>
+<logentry
+   revision="41101">
+<author>lizhenjian</author>
+<date>2017-04-26T19:48:36.250030Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config-yn-dev.properties</path>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config-yn.properties</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config.properties</path>
+<path
+   kind="file"
+   action="D">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/bean/BizContent.java</path>
+<path
+   kind="file"
+   action="D">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/bean/ICBCResquest.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/controller/ICBCUSBkeyController.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/service/ICBCUSBkeyService.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/util/DataUtil.java</path>
+</paths>
+<msg>1、云南新工行接口开发
+2、删除不必要的bean</msg>
+</logentry>
+<logentry
+   revision="41100">
+<author>lizhenjian</author>
+<date>2017-04-26T13:33:02.590615Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/bean/BizContent.java</path>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/bean/ICBCResquest.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/util/DataUtil.java</path>
+</paths>
+<msg>1、创建云南工行接口请求参数及请求参数集合相关的bean
+2、增加按指定模式获取对应格式时间方法</msg>
+</logentry>
+<logentry
+   revision="40946">
+<author>lizhenjian</author>
+<date>2017-04-20T19:06:10.297325Z</date>
+<paths>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/cloudsign-open-sdk-jar-with-dependencies.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config-sc-dev.properties</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config-sc.properties</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config.properties</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/signonline</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/signonline/bean</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/signonline/bean/Result.java</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/signonline/bean/SigerInfo.java</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/signonline/bean/SignAttach.java</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/signonline/bean/SignAttr.java</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/signonline/bean/SignOnLineData.java</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/signonline/constant</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/signonline/constant/SignonlineContants.java</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/signonline/controller</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/signonline/controller/SignatureController.java</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/signonline/service</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/signonline/service/SignatureService.java</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/signonline/util</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/signonline/util/EnvelopeUtil.java</path>
+</paths>
+<msg>易企签接口对接开发</msg>
+</logentry>
+<logentry
+   revision="40888">
+<author>machanggang</author>
+<date>2017-04-19T12:33:33.760686Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config.properties</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/house</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/house/bean</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/house/bean/HouseInfo.java</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/house/bean/Result.java</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/house/constant</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/house/constant/HouseConstants.java</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/house/controller</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/house/controller/HouseInfoController.java</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/house/service</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/house/service/HouseInfoService.java</path>
+</paths>
+<msg>住建接口相关代码</msg>
+</logentry>
+<logentry
+   revision="40480">
+<author>machanggang</author>
+<date>2017-04-06T15:14:40.493846Z</date>
+<paths>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/core/bean/BaseForm.java</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/core/bean/HtmlBean.java</path>
+<path
+   action="D"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/core/bean/LoginBean.java</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/core/bean/UserInfo.java</path>
+<path
+   action="D"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/core/bean/VerifyBean.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/core/controller/LoginController.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/core/controller/VerifyController.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/core/service/ILoginService.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/core/service/ISimpleLoginService.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/core/service/ISimpleVerifyService.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/core/service/IVerifyService.java</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/core/util/JsonUtil.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/demo/service/ThirdpartLoginService.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/demo/service/ThirdpartSimpleLoginService.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/service/ICBCUSBkeyService.java</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/util/DataUtil.java</path>
+</paths>
+<msg>修改接口的接收参数，统一由BaseForm接收</msg>
+</logentry>
+<logentry
+   revision="40472">
+<author>machanggang</author>
+<date>2017-04-06T11:59:14.998451Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/core/bean/LoginBean.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/core/constant/GlobalConstants.java</path>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/core/controller/LoginController.java</path>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/core/service/ILoginService.java</path>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/core/service/ISimpleLoginService.java</path>
+<path
+   kind="dir"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/demo</path>
+<path
+   kind="dir"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/demo/service</path>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/demo/service/ThirdpartLoginService.java</path>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/demo/service/ThirdpartSimpleLoginService.java</path>
+</paths>
+<msg>增加登录接口，增加一个实现登录service的demo</msg>
+</logentry>
+<logentry
+   revision="40471">
+<author>machanggang</author>
+<date>2017-04-06T11:57:17.733045Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/core/bean/VerifyBean.java</path>
+<path
+   kind="file"
+   action="D">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/core/bean/VerifyBo.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/core/controller/VerifyController.java</path>
+<path
+   kind="file"
+   action="D">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/core/service/IHtmlVerifyService.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/core/service/ISimpleVerifyService.java</path>
+<path
+   kind="file"
+   action="A">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/core/service/IVerifyService.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/service/ICBCUSBkeyService.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/util/DataUtil.java</path>
+</paths>
+<msg>更改验证身份接口的bean、service命名</msg>
+</logentry>
+<logentry
+   revision="40464">
+<author>shichenyue</author>
+<date>2017-04-06T09:36:07.947768Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config-demo.properties</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config.properties</path>
+<path
+   kind="dir"
+   action="D">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/bo</path>
+<path
+   kind="dir"
+   action="D">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/ws</path>
+</paths>
+<msg>调整配置项名称</msg>
+</logentry>
+<logentry
+   revision="40437">
+<author>machanggang</author>
+<date>2017-04-06T05:57:04.347483Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/esw-core-0.9.1.jar</path>
+<path
+   kind="dir"
+   action="D">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/certificate</path>
+<path
+   kind="file"
+   action="D">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/core/util/HttpClientUtil.java</path>
+<path
+   kind="file"
+   action="M">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/service/ICBCUSBkeyService.java</path>
+</paths>
+<msg>1.将银行颁发的证书公钥、私钥以及银行公钥从项目中移除。
+2.更新esw-core版本，里面新增了一个工具类HttpClientUtil，同时移除本项目中的HttpClientUtil</msg>
+</logentry>
+<logentry
+   revision="40419">
+<author>machanggang</author>
+<date>2017-04-06T01:51:43.241227Z</date>
+<paths>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/bean</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/bean/BankInfoVo.java</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/bean/NotifyData.java</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/bean/NotifyDataResult.java</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/bean/NotifyInfo.java</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/bean/TranData.java</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/bean/TranDataOrder.java</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/bean/TranDataOther.java</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/controller</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/controller/ICBCUSBkeyController.java</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/service</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/service/ICBCUSBkeyService.java</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/util</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/util/DataUtil.java</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/icbc/util/MercertUtil.java</path>
+</paths>
+<msg>与工行对接相关代码</msg>
+</logentry>
+<logentry
+   revision="40418">
+<author>machanggang</author>
+<date>2017-04-06T01:50:42.962721Z</date>
+<paths>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/core</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/core/bean</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/core/bean/Result.java</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/core/bean/VerifyBo.java</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/core/bean/VerifyResult.java</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/core/constant</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/core/constant/GlobalConstants.java</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/core/controller</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/core/controller/VerifyController.java</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/core/service</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/core/service/IHtmlVerifyService.java</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/core/service/ISimpleVerifyService.java</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/core/util</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/core/util/HttpClientUtil.java</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/core/util/XmlUtil.java</path>
+</paths>
+<msg>身份验证相关的bean、util和接口</msg>
+</logentry>
+<logentry
+   revision="40417">
+<author>machanggang</author>
+<date>2017-04-06T01:38:07.531394Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config-demo.properties</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config.properties</path>
+</paths>
+<msg>按施老师的意见，将工行 的配置修改为第三方配置。证书不再放到项目中。</msg>
+</logentry>
+<logentry
+   revision="40415">
+<author>shichenyue</author>
+<date>2017-04-05T14:25:23.287298Z</date>
+<paths>
+<path
+   action="D"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/META-INF</path>
+</paths>
+<msg>更新jpa配置方式</msg>
+</logentry>
+<logentry
+   revision="40414">
+<author>shichenyue</author>
+<date>2017-04-05T14:10:21.574514Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/esw-core-0.9.1.jar</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config.properties</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/conf/spring-context.xml</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/conf/spring-mvc.xml</path>
+</paths>
+<msg>更新jpa配置方式</msg>
+</logentry>
+<logentry
+   revision="40248">
+<author>machanggang</author>
+<date>2017-03-30T13:55:58.516477Z</date>
+<paths>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/META-INF</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/META-INF/persistence.xml</path>
+</paths>
+<msg>运行项目必须的配置文件</msg>
+</logentry>
+<logentry
+   revision="40247">
+<author>machanggang</author>
+<date>2017-03-30T13:52:39.210527Z</date>
+<paths>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/ISFJ_v2_0_119_2_BAISC_JDK14.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/icbc.jar</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/certificate</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/certificate/510900</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/certificate/510900/ebb2cpublic.crt</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/certificate/510900/suininggsj.cer</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/certificate/510900/suininggsj.key</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config-demo.properties</path>
+<path
+   action="M"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config.properties</path>
+</paths>
+<msg>提交工行jar包，配置，以及遂宁的公钥、私钥和银行公钥</msg>
+</logentry>
+<logentry
+   revision="39711">
+<author>shichenyue</author>
+<date>2017-03-21T03:03:07.803895Z</date>
+<paths>
+<path
+   action="M"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid</path>
+</paths>
+<msg>接口辅助程序项目初始导入...</msg>
+</logentry>
+<logentry
+   revision="39709">
+<author>shichenyue</author>
+<date>2017-03-21T03:02:34.295036Z</date>
+<paths>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/META-INF</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/META-INF/MANIFEST.MF</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/antlr-2.7.6.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/aopalliance.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/asm.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/aspectjweaver.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/c3p0-0.9.1.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/cglib-nodep-2.1_3.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/commons-beanutils-1.8.0.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/commons-codec-1.10.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/commons-collections-3.1.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/commons-dbcp-1.4.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/commons-digester-2.0.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/commons-fileupload-1.3.1.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/commons-io-2.4.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/commons-lang-2.4.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/commons-logging-1.1.1.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/cos.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/cxf-core-3.0.1.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/cxf-rt-frontend-jaxrs-3.0.1.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/cxf-rt-rs-client-3.0.1.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/cxf-rt-rs-service-description-3.0.1.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/cxf-rt-transports-http-3.0.1.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/derby.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/derbyclient.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/dom4j-1.6.1.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/ejb3-persistence.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/esw-core-0.9.1.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/esw-secure-0.9.1.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/esw-tools-0.9.1.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/hibernate-annotations.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/hibernate-commons-annotations.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/hibernate-entitymanager.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/hibernate3.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/ifxjdbc.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/jackson-annotations-2.2.3.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/jackson-core-2.2.3.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/jackson-databind-2.2.3.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/jackson-datatype-hibernate3-2.2.3.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/jackson-jaxrs-base-2.2.3.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/jackson-jaxrs-json-provider-2.2.3.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/jackson-module-jaxb-annotations-2.2.3.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/javassist-3.12.0.GA.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/javax.ws.rs-api-2.0.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/jconnect60.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/jsp-api.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/jstl-api-1.2.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/jstl-impl-1.2.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/jta-1.1.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/junit-4.10.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/log4j-1.2.16.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/mysql.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/oracle.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/poi-3.13.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/poi-ooxml-3.13.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/poi-ooxml-schemas-3.13.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/poi-scratchpad-3.13.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/servlet.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/slf4j-api-1.6.1.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/slf4j-log4j12-1.6.1.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/spring-aop-3.1.4.RELEASE.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/spring-asm-3.1.4.RELEASE.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/spring-aspects-3.1.4.RELEASE.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/spring-beans-3.1.4.RELEASE.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/spring-context-3.1.4.RELEASE.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/spring-context-support-3.1.4.RELEASE.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/spring-core-3.1.4.RELEASE.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/spring-expression-3.1.4.RELEASE.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/spring-jdbc-3.1.4.RELEASE.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/spring-orm-3.1.4.RELEASE.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/spring-test-3.1.4.RELEASE.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/spring-tx-3.1.4.RELEASE.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/spring-web-3.1.4.RELEASE.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/spring-webmvc-3.1.4.RELEASE.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/tiles-api-2.2.2.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/tiles-core-2.2.2.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/tiles-jsp-2.2.2.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/tiles-servlet-2.2.2.jar</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/lib/tiles-template-2.2.2.jar</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/tld</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/tld/c-rt.tld</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/tld/fmt.tld</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/tld/fn.tld</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/tld/tools.tld</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/web.xml</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/WebRoot/WEB-INF/weblogic.xml</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config-demo.properties</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/config.properties</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/log4j.properties</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/views.properties</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/resource/xssfilter.properties</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/bo</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/com/wondersgroup/aid/ws</path>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/conf</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/conf/spring-context.xml</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/conf/spring-cxf-core.xml</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/conf/spring-cxf-jaxrs.xml</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/conf/spring-mvc.xml</path>
+<path
+   action="A"
+   kind="file">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid/src/conf/tiles.xml</path>
+</paths>
+<msg>接口辅助程序项目初始导入...</msg>
+</logentry>
+<logentry
+   revision="39708">
+<author>shichenyue</author>
+<date>2017-03-21T02:59:23.444301Z</date>
+<paths>
+<path
+   action="A"
+   kind="dir">/1.开发库/3.源代码/网上登记辅助程序/与外系统连接程序/aid</path>
+</paths>
+<msg>初始导入。</msg>
+</logentry>
+</log>
