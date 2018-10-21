@@ -9,10 +9,15 @@ import java.util.LinkedList;
  * 根节点日志
  */
 public class LogEntry {
+    //版本号
     String revision;
+    //作者
     String author;
+    //日期
     String date;
+    //文件路径
     ArrayList<LogPath> paths;
+    //提交信息
     String msg;
 
     public String getRevision() {

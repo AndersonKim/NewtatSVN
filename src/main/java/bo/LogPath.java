@@ -6,9 +6,13 @@ package bo;
  * 文件路径
  */
 public class LogPath {
+    //文件修改类型
     String action;
+    //文件还是文件夹
     String kind;
+    //全路径
     String value;
+    //文件名称
     String fileName;
 
     public String getAction() {
