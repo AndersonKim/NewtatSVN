@@ -1,5 +1,6 @@
 package bo;
 
+import java.util.HashMap;
 import java.util.Set;
 
 /**
@@ -20,6 +21,20 @@ public class Engineer {
     Set<String> modifyFiles;
     //开发者类别
     String devType;
+    //添加文件的类型对应的数量
+    HashMap<String,Integer> addFileTypeCount;
+    //修改文件的类型对应的数量
+    HashMap<String,Integer> modifyFileTypeCount;
+    //开发者接触的所有文件类型
+    Set<String> allFileType;
+
+    public Set<String> getAllFileType() {
+        return allFileType;
+    }
+
+    public void setAllFileType(Set<String> allFileType) {
+        this.allFileType = allFileType;
+    }
 
     public String getDevType() {
         return devType;
@@ -67,5 +82,21 @@ public class Engineer {
 
     public void setModifyFiles(Set<String> modifyFiles) {
         this.modifyFiles = modifyFiles;
+    }
+
+    public HashMap<String, Integer> getAddFileTypeCount() {
+        return addFileTypeCount;
+    }
+
+    public void setAddFileTypeCount(HashMap<String, Integer> addFileTypeCount) {
+        this.addFileTypeCount = addFileTypeCount;
+    }
+
+    public HashMap<String, Integer> getModifyFileTypeCount() {
+        return modifyFileTypeCount;
+    }
+
+    public void setModifyFileTypeCount(HashMap<String, Integer> modifyFileTypeCount) {
+        this.modifyFileTypeCount = modifyFileTypeCount;
     }
 }

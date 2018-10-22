@@ -1,6 +1,7 @@
 package bo;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.LinkedList;
 
 /**
@@ -13,8 +14,10 @@ public class LogEntry {
     String revision;
     //作者
     String author;
-    //日期
+    //日期str
     String date;
+    //日期date
+    Date time;
     //文件路径
     ArrayList<LogPath> paths;
     //提交信息
@@ -58,5 +61,13 @@ public class LogEntry {
 
     public void setMsg(String msg) {
         this.msg = msg;
+    }
+
+    public Date getTime() {
+        return time;
+    }
+
+    public void setTime(Date time) {
+        this.time = time;
     }
 }

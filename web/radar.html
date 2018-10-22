@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>雷达图</title>
+    <script src="echarts.min.js"></script>
+</head>
+<body>
+<!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+<div id="main" style="width: 800px;height:400px;"></div>
+<script type="text/javascript">
+    // 基于准备好的dom，初始化echarts实例
+    var myChart = echarts.init(document.getElementById('main'));
+
+    var titleAdd="添加文件分布";
+    var titleModify="修改文件分布";
+    option = {
+        title: {
+            text: '文件类型分布图'
+        },
+        tooltip: {},
+        legend: {
+            data: [titleAdd, titleModify]
+        },
+        radar: {
+            // shape: 'circle',
+            name: {
+                textStyle: {
+                    color: '#fff',
+                    backgroundColor: '#999',
+                    borderRadius: 3,
+                    padding: [3, 5]
+                }
+            },
+            indicator: [
+                { name: 'jpg', max: 100},
+                { name: 'css', max: 100},
+                { name: 'pdf', max: 100},
+                { name: 'java', max: 100},
+                { name: 'jsp', max: 100},
+                { name: 'png', max: 100},
+                { name: 'doc', max: 100},
+                { name: 'js', max: 100},
+                { name: 'properties', max: 100},
+                { name: 'docx', max: 100}
+            ]
+        },
+        series: [{
+            name: '预算 vs 开销（Budget vs spending）',
+            type: 'radar',
+            // areaStyle: {normal: {}},
+            data : [
+                {
+                    value : [43, 10, 20, 35, 50, 10, 20, 35, 50, 10],
+                    name : titleAdd
+                },
+                {
+                    value : [43, 10, 20, 35, 50, 10, 20, 35, 50, 10],
+                    name : titleModify
+                }
+            ]
+        }]
+    };
+
+    // 使用刚指定的配置项和数据显示图表。
+    myChart.setOption(option);
+</script>
+</body>
+</html>

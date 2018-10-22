@@ -18,7 +18,7 @@ import java.util.Iterator;
 public class DocumentConverter {
     public static ArrayList<LogEntry> phaseLog(){
         try {
-            File file = new File("D:\\Dev\\Code\\IDEACode\\newstatSVN\\src\\main\\resources\\log\\bsdt.xml");
+            File file = new File("Y:\\IDEAProject\\newstatSVN\\src\\main\\resources\\log\\bsdt.xml");
             SAXReader reader=new SAXReader();
 
             Document doc=reader.read(file);
