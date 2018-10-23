@@ -1,5 +1,6 @@
 package bo;
 
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Set;
 
@@ -27,6 +28,16 @@ public class Engineer {
     HashMap<String,Integer> modifyFileTypeCount;
     //开发者接触的所有文件类型
     Set<String> allFileType;
+    //开发者提交时间统计表<提交时间，次数>
+    HashMap<Date,Integer> timeTabe;
+
+    public HashMap<Date, Integer> getTimeTabe() {
+        return timeTabe;
+    }
+
+    public void setTimeTabe(HashMap<Date, Integer> timeTabe) {
+        this.timeTabe = timeTabe;
+    }
 
     public Set<String> getAllFileType() {
         return allFileType;

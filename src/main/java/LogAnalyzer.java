@@ -145,4 +145,74 @@ public class LogAnalyzer {
         return authorCount;
 
     }
+
+    /**
+     * edit by AndersonKim
+     * @Date：2018/10/23
+     * @Description：通过作者名称获取用户的日期提交计数
+     */
+    public static HashMap<Date,Integer> getDashBoardByAuther(String author){
+        ArrayList<LogEntry> data=DocumentConverter.phaseLog();
+        data=LogAnalyzer.standardizationDate(data);
+        HashMap<Date,Integer> dashBord=new HashMap<>();
+        for (LogEntry log:data){
+            if(log.getAuthor().equals(author)){
+                if(dashBord.get(log.getTime())!=null){
+                    Integer times=dashBord.get(log.getTime());
+                    dashBord.put(log.getTime(),times+1);
+                }else{
+                    dashBord.put(log.getTime(),1);
+                }
+            }
+        }
+        return dashBord;
+    }
+
+/**
+ * edit by AndersonKim
+ * @Date：2018/10/23
+ * @Description：获取特殊的版本升级的版本号，版本升级类型
+ */
+    public static HashMap<String,String> getSpecialVersionTag(){
+        String SQL_UPGRADE="sql";
+        String CORE_UPGRADE="esw";
+        String BOTH_UPGRADE="sql|esw";
+        String[] SQL_WORD={"sql","数据库","表结构"};
+        String[] CORE_WORD={"esw","框架","单点"};
+        HashMap<String,String> batchTag=new HashMap<>();
+        ArrayList<LogEntry> data=DocumentConverter.phaseLog();
+        for(LogEntry log:data){
+            for(String sensWord:SQL_WORD){
+                if (log.getMsg().contains(sensWord)){
+                    batchTag.put(log.getRevision(),SQL_UPGRADE);
+                }
+            }
+            for (String senWord:CORE_WORD){
+                if (log.getMsg().contains(senWord)){
+                    if(batchTag.get(log.getRevision())!=null){
+                        batchTag.put(log.getRevision(),BOTH_UPGRADE);
+                    }else{
+                        batchTag.put(log.getRevision(),CORE_UPGRADE);
+                    }
+                }
+            }
+
+        }
+        return batchTag;
+    }
+
+    /**
+     * edit by AndersonKim
+     * @Date：2018/10/23
+     * @Description：获取文件被修改的记录表：文件，作者，修改次数统计
+     */
+    public static HashMap<String,HashMap<String,Integer>> getFileModifyCount(){
+        HashMap<String,HashMap<String,Integer>> fileModifyCount=new HashMap<>();
+        ArrayList<LogEntry> data=DocumentConverter.phaseLog();
+        for(LogEntry log:data){
+            HashMap<String,Integer>
+        }
+
+    }
+
 }
