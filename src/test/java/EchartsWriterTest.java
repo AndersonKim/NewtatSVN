@@ -4,6 +4,6 @@
  */
 public class EchartsWriterTest {
     public static void main(String args[]){
-        EchartsWriter.genRadar();
+        EchartsWriter.genPi();
     }
 }

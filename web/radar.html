@@ -6,6 +6,10 @@
     <script src="echarts.min.js"></script>
 </head>
 <body>
+<p>
+    可视化的提供开发者所提交/修改的文件类型的分布：用于了解开发者的类型趋势。<br>
+    提供的数据类型如下：开发者的所增加的文件类型以及对应的数量，开发者的所修改的文件类型以及对应的数量。
+</p>
 <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
 <div id="main" style="width: 800px;height:400px;"></div>
 <script type="text/javascript">
@@ -33,16 +37,12 @@
                 }
             },
             indicator: [
-                { name: 'jpg', max: 100},
-                { name: 'css', max: 100},
-                { name: 'pdf', max: 100},
-                { name: 'java', max: 100},
-                { name: 'jsp', max: 100},
-                { name: 'png', max: 100},
-                { name: 'doc', max: 100},
-                { name: 'js', max: 100},
-                { name: 'properties', max: 100},
-                { name: 'docx', max: 100}
+                { name: 'java', max: 70},
+                { name: 'jsp', max: 70},
+                { name: 'png', max: 70},
+                { name: 'doc', max: 70},
+                { name: 'js', max: 70},
+                { name: 'properties', max: 70},
             ]
         },
         series: [{
@@ -51,11 +51,11 @@
             // areaStyle: {normal: {}},
             data : [
                 {
-                    value : [43, 10, 20, 35, 50, 10, 20, 35, 50, 10],
+                    value : [20,12,70,49,8,1],
                     name : titleAdd
                 },
                 {
-                    value : [43, 10, 20, 35, 50, 10, 20, 35, 50, 10],
+                    value : [16,14,1,10,1,7],
                     name : titleModify
                 }
             ]

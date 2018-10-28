@@ -202,6 +202,7 @@ public class LogAnalyzer {
     }
 
     /**
+     * TODO
      * edit by AndersonKim
      * @Date：2018/10/23
      * @Description：获取文件被修改的记录表：文件，作者，修改次数统计
@@ -210,9 +211,12 @@ public class LogAnalyzer {
         HashMap<String,HashMap<String,Integer>> fileModifyCount=new HashMap<>();
         ArrayList<LogEntry> data=DocumentConverter.phaseLog();
         for(LogEntry log:data){
-            HashMap<String,Integer>
-        }
+            HashMap<String,Integer> authorCount=new HashMap<>();
+            for(LogPath path:log.getPaths()){
 
+            }
+        }
+        return fileModifyCount;
     }
 
 }
