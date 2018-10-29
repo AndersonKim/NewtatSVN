@@ -15,6 +15,31 @@ public class LogPath {
     //文件名称
     String fileName;
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        LogPath logPath = (LogPath) o;
+
+        if (!action.equals(logPath.action))
+            return false;
+        if (!kind.equals(logPath.kind))
+            return false;
+        if (!value.equals(logPath.value))
+            return false;
+        return fileName.equals(logPath.fileName);
+    }
+
+    @Override
+    public int hashCode() {
+        int result = action.hashCode();
+        result = 31 * result + kind.hashCode();
+        result = 31 * result + fileName.hashCode();
+        result = 31 * result + value.hashCode();
+        return result;
+    }
+
     public String getAction() {
         return action;
     }

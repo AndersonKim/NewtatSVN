@@ -202,21 +202,32 @@ public class LogAnalyzer {
     }
 
     /**
-     * TODO
-     * edit by AndersonKim
-     * @Date：2018/10/23
-     * @Description：获取文件被修改的记录表：文件，作者，修改次数统计
+     * 获取指定文件的修改历史纪录
+     * @param fileFullPath
+     * @return 返回该文件历史修改记录以及对应的时间作者和备注
      */
-    public static HashMap<String,HashMap<String,Integer>> getFileModifyCount(){
-        HashMap<String,HashMap<String,Integer>> fileModifyCount=new HashMap<>();
-        ArrayList<LogEntry> data=DocumentConverter.phaseLog();
-        for(LogEntry log:data){
-            HashMap<String,Integer> authorCount=new HashMap<>();
-            for(LogPath path:log.getPaths()){
-
+   public static List getFileHistory(String fileFullPath){
+       ArrayList<HashMap<String,String>> fileModifyHistory=new ArrayList<>();
+       ArrayList<LogEntry> data=DocumentConverter.phaseLog();
+       data=LogAnalyzer.standardizationDate(data);
+       for(LogEntry logEntry:data){
+           HashMap<String,String> fileHis=new HashMap<>();
+           LogPath logPath=new LogPath();
+           logPath.setValue(fileFullPath);
+           logPath.setFileName(fileFullPath.substring(fileFullPath.lastIndexOf("/")+1,fileFullPath.length()));
+           logPath.setKind("file");
+           logPath.setAction("M");
+            if(logEntry.getPaths().contains(logPath)){
+                fileHis.put("revision",logEntry.getRevision());
+                fileHis.put("msg",logEntry.getMsg());
+                fileHis.put("author",logEntry.getAuthor());
+                fileHis.put("date",logEntry.getDate());
+                fileModifyHistory.add(fileHis);
             }
-        }
-        return fileModifyCount;
-    }
+       }
+
+       return fileModifyHistory;
+
+   }
 
 }
