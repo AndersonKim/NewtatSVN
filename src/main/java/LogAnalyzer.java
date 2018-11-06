@@ -27,21 +27,32 @@ public class LogAnalyzer {
         result.setFileModifyNo(0);
         result.setAddFiles(new HashSet<String>());
         result.setModifyFiles(new HashSet<String>());
-
+        //去除首次提交导致的文件类型过于全面的问题
         for (LogEntry log:data){
             if(log.getAuthor().equals(author)){
+                boolean isInit=false;
                 ArrayList<LogPath> logPaths = log.getPaths();
                 for(LogPath path:logPaths){
-                    if(path.getKind().equals("file")){
-                        switch (path.getAction()){
-                            case "A":
-                                result.getAddFiles().add(path.getFileName());
-                                result.setFileAddNo(result.getFileAddNo()+1);
-                                break;
-                            case "M":
-                                result.getModifyFiles().add(path.getFileName());
-                                result.setFileModifyNo(result.getFileModifyNo()+1);
-                                break;
+                    //当前的路径值中有添加src目录操作的时候视为初始导入，跳出当前logentry的循环
+                    if(path.getAction().equals("A")&&path.getKind().equals("dir")&&path.getValue().endsWith("/src")){
+                        isInit=true;
+                    }
+                }
+                //统计非首次提交的文件类型
+                if(!isInit){
+                    for(LogPath path:logPaths){
+                        //统计用户的文件提交类型的数量
+                        if(path.getKind().equals("file")){
+                            switch (path.getAction()){
+                                case "A":
+                                    result.getAddFiles().add(path.getFileName());
+                                    result.setFileAddNo(result.getFileAddNo()+1);
+                                    break;
+                                case "M":
+                                    result.getModifyFiles().add(path.getFileName());
+                                    result.setFileModifyNo(result.getFileModifyNo()+1);
+                                    break;
+                            }
                         }
                     }
                 }
@@ -149,25 +160,51 @@ public class LogAnalyzer {
     /**
      * edit by AndersonKim
      * @Date：2018/10/23
-     * @Description：通过作者名称获取用户的日期提交计数
+     * @Description：通过作者名称获取用户的日期（精确到时分秒）提交计数
      */
-    public static HashMap<Date,Integer> getDashBoardByAuther(String author){
+    public static Engineer getDashBoardByAuther_HMS(Engineer engineer){
         ArrayList<LogEntry> data=DocumentConverter.phaseLog();
         data=LogAnalyzer.standardizationDate(data);
         HashMap<Date,Integer> dashBord=new HashMap<>();
         for (LogEntry log:data){
-            if(log.getAuthor().equals(author)){
+            if(log.getAuthor().equals(engineer.getName())){
                 if(dashBord.get(log.getTime())!=null){
                     Integer times=dashBord.get(log.getTime());
-                    dashBord.put(log.getTime(),times+1);
+                    times=times+1;
+                    dashBord.put(log.getTime(),times);
                 }else{
                     dashBord.put(log.getTime(),1);
                 }
             }
         }
-        return dashBord;
+        engineer.setTimeTabe(dashBord);
+        return engineer;
     }
-
+    /**
+     * edit by AndersonKim
+     * @Date：2018/10/23
+     * @Description：通过作者名称获取用户的日期（精确到年月日）提交计数
+     */
+    public static Engineer getDashBoardByAuther_YMD(Engineer engineer){
+        ArrayList<LogEntry> data=DocumentConverter.phaseLog();
+        data=LogAnalyzer.standardizationDate(data);
+        HashMap<String,Integer> dashBord=new HashMap<>();
+        SimpleDateFormat simpleDateFormat=new SimpleDateFormat("yyyy-MM-dd");
+        for (LogEntry log:data){
+            if(log.getAuthor().equals(engineer.getName())){
+                String dateStr=simpleDateFormat.format(log.getTime());
+                if(dashBord.get(dateStr)!=null){
+                    Integer times=dashBord.get(dateStr);
+                    times=times+1;
+                    dashBord.put(dateStr,times);
+                }else{
+                    dashBord.put(dateStr,1);
+                }
+            }
+        }
+        engineer.setDashBord(dashBord);
+        return engineer;
+    }
 /**
  * edit by AndersonKim
  * @Date：2018/10/23

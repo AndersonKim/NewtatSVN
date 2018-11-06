@@ -1,5 +1,7 @@
 import bo.Engineer;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Set;
@@ -115,6 +117,24 @@ public class EchartsWriter {
         }
         System.out.println("            ],");
     }
+    public static void genHeatMap_Month(String author,String year){
+        Engineer engineer=new Engineer();
+        engineer.setName(author);
+        engineer= LogAnalyzer.getDashBoardByAuther_YMD(engineer);
+        SimpleDateFormat simpleDateFormat=new SimpleDateFormat("yyyy-MM-dd");
+        StringBuffer cache=new StringBuffer();
+        cache.append("    var data = [");
+        for (String str:engineer.getDashBord().keySet()){
+            //date类使用的时候注意初始化需要year-1900，month-1
+            //Date s=new Date(year-1900,1-1,1);
+            //Date e=new Date(year-1900,12-1,31);
+            if(str.contains(year)){
+                cache.append("['"+str+"',"+engineer.getDashBord().get(str)+"],");
+            }
+        }
+        cache.append("    ];");
+        System.out.println(cache.toString());
 
+    }
 
 }

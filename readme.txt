@@ -1,6 +1,5 @@
 newstatSVN
-需求分析：
-    http://www.cnblogs.com/ThinkFree/p/5441904.html
+
     1.开发者
         1.1统计多少开发者(done)，
         1.2指定开发者的提交次数(done)，
@@ -18,17 +17,11 @@ newstatSVN
     7.文件扰动图
         7.1显示指定文件被修改的次数（扰动因素统计：作者，时间等）
         7.2某一文件的历史改动作者，版本，时间，备注信息(done)
-
-增加导出以下项目的数据：
-    aid
-    bsdt
-    netframework
-    gsyth
-
-
+    8.为所有的图添加根据窗口变化改变自身大小resize功能(done)
+    9.增加用户使用说明手册
 
 技术架构：
-    1.数据来源的提供：svnkit以及svn导出的日志文件
+    1.数据来源的提供：svnkit以及svn导出的日志文件（svnkit版本不匹配）
     1.数据来源的提供：svn命令行导出的xml日志文件
     2.数据的处理工具：dom4j处理xml文件
     3.数据的渲染工具：前端的echarts渲染数据

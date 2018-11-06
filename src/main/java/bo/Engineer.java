@@ -30,6 +30,18 @@ public class Engineer {
     Set<String> allFileType;
     //开发者提交时间统计表<提交时间，次数>
     HashMap<Date,Integer> timeTabe;
+    //开发者提交时间统计表<提交时间，次数>
+    HashMap<String,Integer> dashBord;
+
+
+    public HashMap<String, Integer> getDashBord() {
+        return dashBord;
+    }
+
+    public void setDashBord(HashMap<String, Integer> dashBord) {
+        this.dashBord = dashBord;
+    }
+
 
     public HashMap<Date, Integer> getTimeTabe() {
         return timeTabe;
