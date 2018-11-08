@@ -2,7 +2,6 @@ package bo;
 
 import java.util.ArrayList;
 import java.util.Date;
-import java.util.LinkedList;
 
 /**
  * edited by AndersonKim

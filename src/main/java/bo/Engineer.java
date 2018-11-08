@@ -23,15 +23,15 @@ public class Engineer {
     //开发者类别
     String devType;
     //添加文件的类型对应的数量
-    HashMap<String,Integer> addFileTypeCount;
+    HashMap<String, Integer> addFileTypeCount;
     //修改文件的类型对应的数量
-    HashMap<String,Integer> modifyFileTypeCount;
+    HashMap<String, Integer> modifyFileTypeCount;
     //开发者接触的所有文件类型
     Set<String> allFileType;
     //开发者提交时间统计表<提交时间，次数>
-    HashMap<Date,Integer> timeTabe;
+    HashMap<Date, Integer> timeTabe;
     //开发者提交时间统计表<提交时间，次数>
-    HashMap<String,Integer> dashBord;
+    HashMap<String, Integer> dashBord;
 
 
     public HashMap<String, Integer> getDashBord() {
@@ -121,5 +121,20 @@ public class Engineer {
 
     public void setModifyFileTypeCount(HashMap<String, Integer> modifyFileTypeCount) {
         this.modifyFileTypeCount = modifyFileTypeCount;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Engineer engineer = (Engineer) o;
+
+        return name != null ? name.equals(engineer.name) : engineer.name == null;
+    }
+
+    @Override
+    public int hashCode() {
+        return name != null ? name.hashCode() : 0;
     }
 }

@@ -1,6 +1,5 @@
 import bo.LogEntry;
 import bo.LogPath;
-import org.dom4j.Attribute;
 import org.dom4j.Document;
 import org.dom4j.Element;
 import org.dom4j.io.SAXReader;
@@ -16,36 +15,36 @@ import java.util.Iterator;
  * 读取日志文件并封装入BO中
  */
 public class DocumentConverter {
-    public static ArrayList<LogEntry> phaseLog(){
+    public static ArrayList<LogEntry> phaseLog() {
         try {
             File file = new File("Y:\\IDEAProject\\newstatSVN\\src\\main\\resources\\log\\bsdt.xml");
-            SAXReader reader=new SAXReader();
+            SAXReader reader = new SAXReader();
 
-            Document doc=reader.read(file);
+            Document doc = reader.read(file);
 
-            Element rootElement=doc.getRootElement();
+            Element rootElement = doc.getRootElement();
 
             Element fooElement;
 
-            ArrayList<LogEntry> logEntries=new ArrayList<>();
+            ArrayList<LogEntry> logEntries = new ArrayList<>();
 
-            for(Iterator i = rootElement.elementIterator("logentry"); i.hasNext();){
-                fooElement=(Element)i.next();
-                LogEntry logEntry=new LogEntry();
+            for (Iterator i = rootElement.elementIterator("logentry"); i.hasNext(); ) {
+                fooElement = (Element) i.next();
+                LogEntry logEntry = new LogEntry();
                 logEntry.setAuthor(fooElement.elementText("author"));
                 logEntry.setDate(fooElement.elementText("date"));
                 logEntry.setMsg(fooElement.elementText("msg"));
                 logEntry.setRevision(fooElement.attribute("revision").getValue());
 
-                ArrayList<LogPath> logPaths=new ArrayList<>();
+                ArrayList<LogPath> logPaths = new ArrayList<>();
                 Element pathsElement = fooElement.element("paths");
-                for(Iterator pathIt=pathsElement.elementIterator("path");pathIt.hasNext();){
-                    Element pathElement=(Element)pathIt.next();
-                    LogPath logPath=new LogPath();
-                    String path=pathElement.getStringValue();
+                for (Iterator pathIt = pathsElement.elementIterator("path"); pathIt.hasNext(); ) {
+                    Element pathElement = (Element) pathIt.next();
+                    LogPath logPath = new LogPath();
+                    String path = pathElement.getStringValue();
                     logPath.setValue(path);
                     logPath.setFileName(path.substring(
-                            path.lastIndexOf("/")+1,
+                            path.lastIndexOf("/") + 1,
                             path.length()
                     ));
                     logPath.setAction(pathElement.attribute("action").getValue());
