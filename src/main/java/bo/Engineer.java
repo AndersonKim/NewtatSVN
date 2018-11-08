@@ -33,6 +33,12 @@ public class Engineer {
     //开发者提交时间统计表<提交时间，次数>
     HashMap<String, Integer> dashBord;
 
+    public Engineer() {
+    }
+
+    public Engineer(String name) {
+        this.name = name;
+    }
 
     public HashMap<String, Integer> getDashBord() {
         return dashBord;

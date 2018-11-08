@@ -1,6 +1,7 @@
 import bo.Engineer;
 import bo.LogEntry;
 import bo.LogPath;
+import bo.Project;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -279,15 +280,31 @@ public class LogAnalyzer {
 
     }
 
+
+
     /**
      * edit by AndersonKim
-     *
      * @Date：2018/11/8
-     * @Description：获取指定作者提交对项目的提交次数占比
+     * @Description：初始化指定的项目相关数据
      */
-    public static double getAuthorRatio(String author) {
-        double a = 0;
-        return a;
+    public static Project initProject(){
+        ArrayList<LogEntry> data = DocumentConverter.phaseLog();
+        data = LogAnalyzer.standardizationDate(data);
+
+        HashSet<Engineer> engineerArrayList=new HashSet<>();
+        Set<String> enginners= getAuthorCount().keySet();
+        for (String enginner:enginners) {
+            Engineer e=extractFileByAuthor(enginner);
+            e=setEngineerAMType(e);
+            e=getFilesTypeByEngineer(e);
+            e=getDashBoardByAuther_YMD(e);
+            engineerArrayList.add(e);
+        }
+
+        Project project=new Project();
+        project.setProjectLogEntry(data);
+        project.setProjectEngineer(engineerArrayList);
+        return project;
     }
 
 }

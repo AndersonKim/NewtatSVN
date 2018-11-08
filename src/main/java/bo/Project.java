@@ -18,7 +18,27 @@ public class Project {
     //该项目参与的工程师
     public HashSet<Engineer> projectEngineer;
 
+    public String getProjectName() {
+        return projectName;
+    }
 
+    public void setProjectName(String projectName) {
+        this.projectName = projectName;
+    }
 
+    public List<LogEntry> getProjectLogEntry() {
+        return projectLogEntry;
+    }
 
+    public void setProjectLogEntry(List<LogEntry> projectLogEntry) {
+        this.projectLogEntry = projectLogEntry;
+    }
+
+    public HashSet<Engineer> getProjectEngineer() {
+        return projectEngineer;
+    }
+
+    public void setProjectEngineer(HashSet<Engineer> projectEngineer) {
+        this.projectEngineer = projectEngineer;
+    }
 }
