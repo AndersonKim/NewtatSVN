@@ -1,4 +1,6 @@
-import bo.Engineer;
+package com.andersonkim.util;
+
+import com.andersonkim.bo.Engineer;
 
 import java.text.SimpleDateFormat;
 import java.util.HashMap;

@@ -1,4 +1,4 @@
-package bo;
+package com.andersonkim.bo;
 
 /**
  * edited by AndersonKim

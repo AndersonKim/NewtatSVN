@@ -1,7 +1,9 @@
-import bo.Engineer;
-import bo.LogEntry;
-import bo.LogPath;
-import bo.Project;
+package com.andersonkim.util;
+
+import com.andersonkim.bo.Engineer;
+import com.andersonkim.bo.LogEntry;
+import com.andersonkim.bo.LogPath;
+import com.andersonkim.bo.Project;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

@@ -1,3 +1,7 @@
+package com.andersonkim.newstatsvn;
+
+import com.andersonkim.util.LogAnalyzer;
+
 /**
  * edited by AndersonKim
  * at 2018/10/22

@@ -1,4 +1,4 @@
-package bo;
+package com.andersonkim.bo;
 
 import java.util.HashSet;
 import java.util.List;

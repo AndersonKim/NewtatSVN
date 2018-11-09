@@ -1,5 +1,7 @@
-import bo.LogEntry;
-import bo.LogPath;
+package com.andersonkim.util;
+
+import com.andersonkim.bo.LogEntry;
+import com.andersonkim.bo.LogPath;
 import org.dom4j.Document;
 import org.dom4j.Element;
 import org.dom4j.io.SAXReader;
