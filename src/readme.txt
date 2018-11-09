@@ -19,6 +19,13 @@ newstatSVN
         7.2某一文件的历史改动作者，版本，时间，备注信息(done)
     8.为所有的图添加根据窗口变化改变自身大小resize功能(done)
     9.增加用户使用说明手册
+    10.readme中增加lable
+        下载lable
+        开源设置为gpl
+        jdk版本
+        maven版本
+        springboot版本
+
 
 
 技术架构：

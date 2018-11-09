@@ -1,4 +1,5 @@
 NewStatSVN
+[![](https://img.shields.io/aur/license/:package.svg)]()[![](https://img.shields.io/badge/java-1.8-blue.svg)]()
 
 1.使用svn命令行导出指定仓库的xml日志
 2.使用java命令运行可执行的jar文件
