@@ -1,4 +1,4 @@
-package com.andersonkim.bo;
+package com.andersonkim.newstatsvn.bo;
 
 /**
  * edited by AndersonKim

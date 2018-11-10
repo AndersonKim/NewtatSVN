@@ -1,6 +1,6 @@
-package com.andersonkim.util;
+package com.andersonkim.newstatsvn.util;
 
-import com.andersonkim.bo.Engineer;
+import com.andersonkim.newstatsvn.bo.Engineer;
 
 import java.text.SimpleDateFormat;
 import java.util.HashMap;

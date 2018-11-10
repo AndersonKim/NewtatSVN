@@ -1,9 +1,9 @@
-package com.andersonkim.util;
+package com.andersonkim.newstatsvn.util;
 
-import com.andersonkim.bo.Engineer;
-import com.andersonkim.bo.LogEntry;
-import com.andersonkim.bo.LogPath;
-import com.andersonkim.bo.Project;
+import com.andersonkim.newstatsvn.bo.Engineer;
+import com.andersonkim.newstatsvn.bo.LogEntry;
+import com.andersonkim.newstatsvn.bo.LogPath;
+import com.andersonkim.newstatsvn.bo.Project;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

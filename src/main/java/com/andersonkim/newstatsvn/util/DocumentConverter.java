@@ -1,7 +1,7 @@
-package com.andersonkim.util;
+package com.andersonkim.newstatsvn.util;
 
-import com.andersonkim.bo.LogEntry;
-import com.andersonkim.bo.LogPath;
+import com.andersonkim.newstatsvn.bo.LogEntry;
+import com.andersonkim.newstatsvn.bo.LogPath;
 import org.dom4j.Document;
 import org.dom4j.Element;
 import org.dom4j.io.SAXReader;

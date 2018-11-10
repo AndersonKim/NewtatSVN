@@ -1,6 +1,6 @@
 package com.andersonkim.newstatsvn;
 
-import com.andersonkim.util.LogAnalyzer;
+import com.andersonkim.newstatsvn.util.LogAnalyzer;
 
 /**
  * edited by AndersonKim

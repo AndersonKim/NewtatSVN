@@ -1,4 +1,4 @@
-package com.andersonkim.bo;
+package com.andersonkim.newstatsvn.bo;
 
 import java.util.Date;
 import java.util.HashMap;
