@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh-CN" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8" />
     <title>welcome to NewStatSvn</title>
     <!--todo 模板化导入的js以及css-->
-    <link rel="stylesheet" type="text/css" href="../../static/bootstrap/css/bootstrap.css" />
-    <script src="../../static/echarts/echarts.min.js"></script>
-    <script src="../../static/jquery/jquery.min.js"></script>
-    <script src="../../static/bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" th:href="@{~/bootstrap/css/bootstrap.css}" href="../../static/bootstrap/css/bootstrap.css" />
+    <script th:src="@{/echarts/echarts.min.js}" src="../../static/echarts/echarts.min.js"></script>
+    <script th:src="@{/jquery/jquery.min.js}" src="../../static/jquery/jquery.min.js"></script>
+    <script th:src="@{/bootstrap/js/bootstrap.min.js}" src="../../static/bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body>
 <nav class="navbar navbar-default navbar-static-top">
