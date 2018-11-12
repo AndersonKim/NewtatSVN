@@ -17,6 +17,12 @@ import java.util.Iterator;
  * 读取日志文件并封装入BO中
  */
 public class DocumentConverter {
+    /**
+     * edit by AndersonKim
+     *
+     * @Date：2018/11/12
+     * @Description：获取指定路径下的log文件
+     */
     public static ArrayList<LogEntry> phaseLog() {
         try {
             File file = new File("Y:\\IDEAProject\\newstatSVN\\src\\main\\resources\\log\\bsdt.xml");
@@ -67,4 +73,25 @@ public class DocumentConverter {
         }
         return null;
     }
+
+    /**
+     * edit by AndersonKim
+     *
+     * @Date：2018/11/12
+     * @Description：读取log文件夹下得所有日志文件
+     */
+    public static ArrayList<File> getProjectList() {
+        //todo 配置springboot的读取信息的log
+        ArrayList<File> files = new ArrayList<>();
+        String classpath = Thread.currentThread().getContextClassLoader().getResource(".").getPath();
+        File f = new File(classpath + "log/");
+        if (f.isDirectory()) {
+            File[] fs = f.listFiles();
+            for (File file : fs) {
+                files.add(file.getAbsoluteFile());
+            }
+        }
+        return files;
+    }
+
 }

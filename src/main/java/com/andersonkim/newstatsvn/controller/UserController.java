@@ -1,13 +1,17 @@
 package com.andersonkim.newstatsvn.controller;
 
+import com.andersonkim.newstatsvn.util.DocumentConverter;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+
+import static com.andersonkim.newstatsvn.util.DocumentConverter.getProjectList;
 
 @Controller
 @RequestMapping("/user")
 public class UserController {
     @RequestMapping("index")
     public String index(){
+        getProjectList();
         return "user/index";
     }
     @RequestMapping("pie")
@@ -20,6 +24,6 @@ public class UserController {
     }
     @RequestMapping("heatmap")
     public String heatmap(){
-        return "user/heatmap";
+        return "user/heatmap-month";
     }
 }
