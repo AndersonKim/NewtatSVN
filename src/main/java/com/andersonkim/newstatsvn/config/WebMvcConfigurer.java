@@ -17,6 +17,4 @@ public class WebMvcConfigurer extends WebMvcConfigurerAdapter {
         registry.setOrder(Ordered.HIGHEST_PRECEDENCE);
         super.addViewControllers(registry);
     }
-
-
 }

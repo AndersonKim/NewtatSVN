@@ -22,8 +22,8 @@ public class LogAnalyzer {
      * @param author 工程师姓名
      * @return
      */
-    public static Engineer extractFileByAuthor(String author) {
-        ArrayList<LogEntry> data = DocumentConverter.phaseLog();
+    public static Engineer extractFileByAuthor(String author ,ArrayList<LogEntry> data) {
+        //ArrayList<LogEntry> data = DocumentConverter.phaseLog();
 
         Engineer result = new Engineer();
         result.setName(author);
@@ -149,8 +149,8 @@ public class LogAnalyzer {
      * @Date：2018/10/19
      * @Description：获取日志中的作者以及对应的提交数量
      */
-    public static HashMap<String, Integer> getAuthorCount() {
-        ArrayList<LogEntry> data = DocumentConverter.phaseLog();
+    public static HashMap<String, Integer> getAuthorCount(ArrayList<LogEntry> data) {
+        //ArrayList<LogEntry> data = DocumentConverter.phaseLog();
         HashSet author = new HashSet<>();
         HashMap<String, Integer> authorCount = new HashMap<>();
         for (LogEntry log : data) {
@@ -172,8 +172,8 @@ public class LogAnalyzer {
      * @Date：2018/10/23
      * @Description：通过作者名称获取用户的日期（精确到时分秒）提交计数
      */
-    public static Engineer getDashBoardByAuther_HMS(Engineer engineer) {
-        ArrayList<LogEntry> data = DocumentConverter.phaseLog();
+    public static Engineer getDashBoardByAuther_HMS(Engineer engineer,ArrayList<LogEntry> data) {
+        //ArrayList<LogEntry> data = DocumentConverter.phaseLog();
         data = LogAnalyzer.standardizationDate(data);
         HashMap<Date, Integer> dashBord = new HashMap<>();
         for (LogEntry log : data) {
@@ -197,8 +197,8 @@ public class LogAnalyzer {
      * @Date：2018/10/23
      * @Description：通过作者名称获取用户的日期（精确到年月日）提交计数
      */
-    public static Engineer getDashBoardByAuther_YMD(Engineer engineer) {
-        ArrayList<LogEntry> data = DocumentConverter.phaseLog();
+    public static Engineer getDashBoardByAuther_YMD(Engineer engineer,ArrayList<LogEntry> data) {
+        //ArrayList<LogEntry> data = DocumentConverter.phaseLog();
         data = LogAnalyzer.standardizationDate(data);
         HashMap<String, Integer> dashBord = new HashMap<>();
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
@@ -224,14 +224,14 @@ public class LogAnalyzer {
      * @Date：2018/10/23
      * @Description：获取特殊的版本升级的版本号，版本升级类型
      */
-    public static HashMap<String, String> getSpecialVersionTag() {
+    public static HashMap<String, String> getSpecialVersionTag(ArrayList<LogEntry> data) {
         String SQL_UPGRADE = "sql";
         String CORE_UPGRADE = "esw";
         String BOTH_UPGRADE = "sql|esw";
         String[] SQL_WORD = {"sql", "数据库", "表结构"};
         String[] CORE_WORD = {"esw", "框架", "单点"};
         HashMap<String, String> batchTag = new HashMap<>();
-        ArrayList<LogEntry> data = DocumentConverter.phaseLog();
+        //ArrayList<LogEntry> data = DocumentConverter.phaseLog();
         for (LogEntry log : data) {
             for (String sensWord : SQL_WORD) {
                 if (log.getMsg().contains(sensWord)) {
@@ -258,9 +258,9 @@ public class LogAnalyzer {
      * @param fileFullPath
      * @return 返回该文件历史修改记录以及对应的时间作者和备注
      */
-    public static List getFileHistory(String fileFullPath) {
+    public static List getFileHistory(String fileFullPath,ArrayList<LogEntry> data) {
         ArrayList<HashMap<String, String>> fileModifyHistory = new ArrayList<>();
-        ArrayList<LogEntry> data = DocumentConverter.phaseLog();
+        //ArrayList<LogEntry> data = DocumentConverter.phaseLog();
         data = LogAnalyzer.standardizationDate(data);
         for (LogEntry logEntry : data) {
             HashMap<String, String> fileHis = new HashMap<>();
@@ -289,21 +289,22 @@ public class LogAnalyzer {
      * @Date：2018/11/8
      * @Description：初始化指定的项目相关数据
      */
-    public static Project initProject(){
-        ArrayList<LogEntry> data = DocumentConverter.phaseLog();
+    public static Project initProject(String filePath){
+        ArrayList<LogEntry> data = DocumentConverter.initLogForProject(filePath);
         data = LogAnalyzer.standardizationDate(data);
 
         HashSet<Engineer> engineerArrayList=new HashSet<>();
-        Set<String> enginners= getAuthorCount().keySet();
+        Set<String> enginners= getAuthorCount(data).keySet();
         for (String enginner:enginners) {
-            Engineer e=extractFileByAuthor(enginner);
+            Engineer e=extractFileByAuthor(enginner,data);
             e=setEngineerAMType(e);
             e=getFilesTypeByEngineer(e);
-            e=getDashBoardByAuther_YMD(e);
+            e=getDashBoardByAuther_YMD(e,data);
             engineerArrayList.add(e);
         }
 
         Project project=new Project();
+        project.setProjectName(filePath.substring(filePath.lastIndexOf("\\")+1,filePath.lastIndexOf(".")));
         project.setProjectLogEntry(data);
         project.setProjectEngineer(engineerArrayList);
         return project;

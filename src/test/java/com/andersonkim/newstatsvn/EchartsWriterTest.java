@@ -8,6 +8,6 @@ import com.andersonkim.newstatsvn.util.LogAnalyzer;
  */
 public class EchartsWriterTest {
     public static void main(String args[]){
-        LogAnalyzer.initProject();
+        //LogAnalyzer.initProject();
     }
 }

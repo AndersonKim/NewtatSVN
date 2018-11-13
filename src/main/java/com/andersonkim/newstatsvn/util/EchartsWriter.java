@@ -1,8 +1,10 @@
 package com.andersonkim.newstatsvn.util;
 
 import com.andersonkim.newstatsvn.bo.Engineer;
+import com.andersonkim.newstatsvn.bo.LogEntry;
 
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Set;
@@ -20,8 +22,8 @@ public class EchartsWriter {
      * @Date：2018/10/22
      * @Description：产生文件分布图的echarts数据
      */
-    public static void genRadar(String author) {
-        Engineer engineer = LogAnalyzer.extractFileByAuthor(author);
+    public static void genRadar(String author, ArrayList<LogEntry> data) {
+        Engineer engineer = LogAnalyzer.extractFileByAuthor(author,data);
         engineer = LogAnalyzer.setEngineerAMType(engineer);
         //获取修改以及增加的文件类型的共有的类型
         Set<String> addFileType = engineer.getAddFileTypeCount().keySet();
@@ -98,9 +100,9 @@ public class EchartsWriter {
      * @Date：2018/10/22
      * @Description：产生文件分布图的echarts数据
      */
-    public static void genPi() {
+    public static void genPi(ArrayList<LogEntry> data) {
         //获取数据
-        HashMap<String, Integer> authorCount = LogAnalyzer.getAuthorCount();
+        HashMap<String, Integer> authorCount = LogAnalyzer.getAuthorCount(data);
         //生成数据
 /*
              data:[
@@ -121,10 +123,10 @@ public class EchartsWriter {
         System.out.println("            ],");
     }
 
-    public static void genHeatMap_Month(String author, String year) {
+    public static void genHeatMap_Month(String author, String year,ArrayList<LogEntry> data) {
         Engineer engineer = new Engineer();
         engineer.setName(author);
-        engineer = LogAnalyzer.getDashBoardByAuther_YMD(engineer);
+        engineer = LogAnalyzer.getDashBoardByAuther_YMD(engineer,data);
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
         StringBuffer cache = new StringBuffer();
         cache.append("    var data = [");
