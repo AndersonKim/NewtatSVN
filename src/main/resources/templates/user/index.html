@@ -17,28 +17,34 @@
             NewStatSvn
         </h1>
     </div>
-    扫描到的项目有：
-    <table class="table table-bordered table-striped">
-        <thead>
-        <tr>
-            <th>ID</th>
-            <th>Path</th>
-            <th>Active</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr th:if="${files.size()==0}">
-            <td colspan="3">No messages</td>
-        </tr>
-        <tr th:each="message,messageStat : ${files}">
-            <td th:text="${messageStat.index+1}"></td>
-            <td th:text="${message.path}"></td>
-            <td>
-                <a th:href="@{'/project/' + ${messageStat.index}}">查看详情</a>
-            </td>
-        </tr>
-        </tbody>
-    </table>
+    <div class="panel panel-default">
+        <div class="panel-heading">扫描到的项目有：</div>
+        <div class="panel-body">
+            <table class="table table-hover">
+                <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Path</th>
+                    <th>Active</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr th:if="${files.size()==0}">
+                    <td colspan="3">No messages</td>
+                </tr>
+                <tr th:each="message,messageStat : ${files}">
+                    <td th:text="${messageStat.index+1}"></td>
+                    <td th:text="${message.path}"></td>
+                    <td>
+                        <a th:href="@{'/project/' + ${messageStat.index}}">查看详情</a>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
 
 </div>
 <div th:include="common/include :: footer"></div>

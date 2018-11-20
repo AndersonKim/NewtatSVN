@@ -23,6 +23,7 @@ public class ProjectController {
     public String projectIndex(Model model, @PathVariable("projectId") String projectId) {
         File file = DocumentConverter.getProjectList().get(Integer.parseInt(projectId));
         Project project = LogAnalyzer.initProject(file.getAbsolutePath());
+        model.addAttribute("projectId", projectId);
         model.addAttribute("project", project);
         model.addAttribute("pidata", EchartsWriter.genPi(project.projectLogEntry));
         return "project/index";

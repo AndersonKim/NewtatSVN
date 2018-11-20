@@ -16,42 +16,47 @@
 
         <h1>
             <span
-                    class="glyphicon glyphicon-object-align-bottom"
+                    class="glyphicon glyphicon-home"
                     aria-hidden="true">
             </span>
             [(${project.projectName})]
         </h1>
     </div>
-<div class="container">
-    <div id="main" style="width: 600px;height:400px;"></div>
-</div>
-    <p>工程师信息</p>
-    <table class="table table-bordered table-striped">
-        <thead>
-        <tr>
-            <th>ID</th>
-            <th>Name</th>
-            <th>FileAddNo</th>
-            <th>FileModifyNo</th>
-            <th>Detail</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr th:if="${project.getProjectEngineer().size()==0}">
-            <td colspan="5">No messages</td>
-        </tr>
-        <tr th:each="enginner,enginnerStat : ${project.getProjectEngineer()}">
-            <td th:text="${enginnerStat.index+1}"></td>
-            <td th:text="${enginner.name}"></td>
-            <td th:text="${enginner.fileAddNo}"></td>
-            <td th:text="${enginner.fileModifyNo}"></td>
-            <td>
-                <a th:href="@{'/enginner/'+${enginner.name}}">详情</a>
-            </td>
-        </tr>
-        </tbody>
-    </table>
-
+    <div class="container">
+        <div id="main" style="width: 600px;height:400px;"></div>
+    </div>
+    <div class="container">
+        <div class="panel panel-default">
+            <div class="panel-heading">参与该项目的工程师信息</div>
+            <div class="panel-body">
+                <table class="table table-hover">
+                    <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>FileAddNo</th>
+                        <th>FileModifyNo</th>
+                        <th>Detail</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr th:if="${project.getProjectEngineer().size()==0}">
+                        <td colspan="5">No messages</td>
+                    </tr>
+                    <tr th:each="enginner,enginnerStat : ${project.getProjectEngineer()}">
+                        <td th:text="${enginnerStat.index+1}"></td>
+                        <td th:text="${enginner.name}"></td>
+                        <td th:text="${enginner.fileAddNo}"></td>
+                        <td th:text="${enginner.fileModifyNo}"></td>
+                        <td>
+                            <a th:href="@{'/enginner/'+${enginner.name}+'/'+${proojectId}">详情</a>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
 </div>
 <div th:include="common/include :: footer"></div>
 </body>

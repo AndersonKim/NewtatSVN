@@ -19,7 +19,7 @@ public class EchartsWriter {
      * @Date：2018/10/22
      * @Description：产生文件分布图的echarts数据
      */
-    public static void genRadar(String author, ArrayList<LogEntry> data) {
+    public static void genRadar(String author, List<LogEntry> data) {
         Engineer engineer = LogAnalyzer.extractFileByAuthor(author,data);
         engineer = LogAnalyzer.setEngineerAMType(engineer);
         //获取修改以及增加的文件类型的共有的类型

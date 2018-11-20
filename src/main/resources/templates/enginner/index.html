@@ -19,8 +19,78 @@
             [(${enginner.name})]
         </h1>
     </div>
-
+    <div class="container">
+        <div id="main" style="width: 600px;height:400px;"></div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">工程师详情</div>
+        <div class="panel-body">
+            <table class="table table-hover">
+                <thead>
+                <tr>
+                    <th>Attr</th>
+                    <th>Value</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
 </div>
 <div th:include="common/include :: footer"></div>
 </body>
+<script th:inline="javascript">
+    // 基于准备好的dom，初始化echarts实例
+    var myChart = echarts.init(document.getElementById('main'));
+
+    var titleAdd="添加文件分布";
+    var titleModify="修改文件分布";
+    option = {
+        title: {
+            text: '文件类型分布图'
+        },
+        tooltip: {},
+        legend: {
+            data: [titleAdd, titleModify]
+        },
+        radar: {
+            // shape: 'circle',
+            name: {
+                textStyle: {
+                    color: '#fff',
+                    backgroundColor: '#999',
+                    borderRadius: 3,
+                    padding: [3, 5]
+                }
+            },
+            indicator: [
+                [($indicator)]
+            ]
+        },
+        series: [{
+            name: '添加文件类型 vs 修改文件类型',
+            type: 'radar',
+            // areaStyle: {normal: {}},
+            data : [
+                {
+                    value : [[($addData)]],
+                    name : titleAdd
+                },
+                {
+                    value : [[($modifyData)]],
+                    name : titleModify
+                }
+            ]
+        }]
+    };
+
+    // 使用刚指定的配置项和数据显示图表。
+    myChart.setOption(option);
+
+</script>
 </html>
