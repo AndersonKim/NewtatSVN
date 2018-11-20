@@ -17,14 +17,14 @@ public class UserController {
     }
     @RequestMapping("pie")
     public String pie(){
-        return "user/pie";
+        return "prototype/pie";
     }
     @RequestMapping("radar")
     public String radar(){
-        return "user/radar";
+        return "prototype/radar";
     }
     @RequestMapping("heatmap")
     public String heatmap(){
-        return "user/heatmap-month";
+        return "prototype/heatmap-month";
     }
 }

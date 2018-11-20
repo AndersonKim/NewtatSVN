@@ -5,56 +5,15 @@
     <title>welcome to NewStatSvn</title>
     <!--模板化导入asset信息-->
     <div th:include="common/include :: asset"></div>
-
-
 </head>
 <body>
-<nav class="navbar navbar-default navbar-static-top">
-    <div class="container">
-        <div class="navbar-header">
-
-            <a class="navbar-brand" th:href="@{/}">
-                <span class="glyphicon glyphicon-lock" aria-hidden="true"></span> NewStatSvn
-            </a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-                <li class="active">
-                    <a th:href="@{/}">
-                        <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
-                        Home
-                    </a>
-                </li>
-                <li>
-                    <a th:href="@{/}">
-                        <span class="glyphicon glyphicon-sunglasses" aria-hidden="true"></span>
-                        About
-                    </a>
-                </li>
-                <li class="dropdown">
-                    <a th:href="@{/}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                        <span class="glyphicon glyphicon-option-horizontal" aria-hidden="true"></span>
-                        Charts
-                        <span class="caret"></span>
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a th:href="@{/user/pie}">Pie</a></li>
-                        <li><a th:href="@{/user/radar}">Radar</a></li>
-                        <li><a th:href="@{/user/heatmap}">Hearmap</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-        <!--/.nav-collapse -->
-    </div>
-</nav>
+<div th:include="common/include :: nav"></div>
 <div class="container">
     <!-- Main component for a primary marketing message or call to action -->
     <div class="jumbotron">
-
         <h1>
             <span
-                    class="glyphicon glyphicon-object-align-bottom"
+                    class="glyphicon glyphicon-user"
                     aria-hidden="true">
             </span>
             [(${enginner.name})]
