@@ -57,93 +57,11 @@
                     class="glyphicon glyphicon-object-align-bottom"
                     aria-hidden="true">
             </span>
-            [(${project.projectName})]
+            [(${enginner.name})]
         </h1>
     </div>
-<div class="container">
-    <div id="main" style="width: 600px;height:400px;"></div>
-</div>
-    <p>工程师信息</p>
-    <table class="table table-bordered table-striped">
-        <thead>
-        <tr>
-            <th>ID</th>
-            <th>Name</th>
-            <th>FileAddNo</th>
-            <th>FileModifyNo</th>
-            <th>Detail</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr th:if="${project.getProjectEngineer().size()==0}">
-            <td colspan="5">No messages</td>
-        </tr>
-        <tr th:each="enginner,enginnerStat : ${project.getProjectEngineer()}">
-            <td th:text="${enginnerStat.index+1}"></td>
-            <td th:text="${enginner.name}"></td>
-            <td th:text="${enginner.fileAddNo}"></td>
-            <td th:text="${enginner.fileModifyNo}"></td>
-            <td>
-                <a th:href="@{'/enginner/'+${enginner.name}}">详情</a>
-            </td>
-        </tr>
-        </tbody>
-    </table>
 
 </div>
 <div th:include="common/include :: footer"></div>
 </body>
-<script th:inline="javascript">
-
-    // 基于准备好的dom，初始化echarts实例
-    var myChart = echarts.init(document.getElementById('main'));
-
-    // 指定图表的配置项和数据
-
-    var itemStyle = {
-        normal: {
-            opacity: 0.7,
-            borderWidth: 3,
-            borderColor: '#235894'
-        }
-    };
-    option = {
-        title: {
-            text: '提交占比',
-            textStyle: {
-                color: '#235894'
-            }
-        },
-        tooltip: {},
-        series: [{
-            name: 'pie',
-            type: 'pie',
-            selectedMode: 'single',
-            selectedOffset: 30,
-            clockwise: true,
-            label: {
-                normal: {
-                    textStyle: {
-                        fontSize: 18,
-                        color: '#235894'
-                    }
-                }
-            },
-            labelLine: {
-                normal: {
-                    lineStyle: {
-                        color: '#235894'
-                    }
-                }
-            },
-            data:[
-                [(${pidata})]
-                ],
-            itemStyle: itemStyle
-        }]
-    };
-
-    // 使用刚指定的配置项和数据显示图表。
-    myChart.setOption(option);
-</script>
 </html>

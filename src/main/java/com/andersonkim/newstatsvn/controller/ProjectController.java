@@ -2,6 +2,7 @@ package com.andersonkim.newstatsvn.controller;
 
 import com.andersonkim.newstatsvn.bo.Project;
 import com.andersonkim.newstatsvn.util.DocumentConverter;
+import com.andersonkim.newstatsvn.util.EchartsWriter;
 import com.andersonkim.newstatsvn.util.LogAnalyzer;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -23,6 +24,7 @@ public class ProjectController {
         File file = DocumentConverter.getProjectList().get(Integer.parseInt(projectId));
         Project project = LogAnalyzer.initProject(file.getAbsolutePath());
         model.addAttribute("project", project);
+        model.addAttribute("pidata", EchartsWriter.genPi(project.projectLogEntry));
         return "project/index";
     }
 }

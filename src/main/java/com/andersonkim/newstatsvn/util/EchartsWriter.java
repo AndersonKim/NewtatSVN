@@ -4,10 +4,7 @@ import com.andersonkim.newstatsvn.bo.Engineer;
 import com.andersonkim.newstatsvn.bo.LogEntry;
 
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
 
 /**
  * edited by AndersonKim
@@ -100,7 +97,7 @@ public class EchartsWriter {
      * @Date：2018/10/22
      * @Description：产生文件分布图的echarts数据
      */
-    public static void genPi(ArrayList<LogEntry> data) {
+    public static String genPi(List<LogEntry> data) {
         //获取数据
         HashMap<String, Integer> authorCount = LogAnalyzer.getAuthorCount(data);
         //生成数据
@@ -116,11 +113,17 @@ public class EchartsWriter {
                 {value:49,name:'lizhenjian'}
             ],
  */
-        System.out.println("             data:[");
+        StringBuffer buffer=new StringBuffer();
+        //buffer.append("[");
+        //System.out.println("             data:[");
         for (String author : authorCount.keySet()) {
-            System.out.println("{value:" + authorCount.get(author) + ",name:'" + author + "'},");
+            buffer.append("{value:" + authorCount.get(author) + ",name:'" + author + "'},");
+            //System.out.println("{value:" + authorCount.get(author) + ",name:'" + author + "'},");
         }
-        System.out.println("            ],");
+        buffer.replace(buffer.lastIndexOf(","),buffer.length(),"");
+        //buffer.append("]");
+        //System.out.println("            ],");
+        return buffer.toString();
     }
 
     public static void genHeatMap_Month(String author, String year,ArrayList<LogEntry> data) {
