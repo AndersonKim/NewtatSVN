@@ -49,7 +49,7 @@
                         <td th:text="${enginner.fileAddNo}"></td>
                         <td th:text="${enginner.fileModifyNo}"></td>
                         <td>
-                            <a th:href="@{'/enginner/'+${enginner.name}+'/'+${proojectId}">详情</a>
+                            <a th:href="@{/enginner/{orderId}/{projectId}(orderId=${enginner.name},projectId=${projectId})}">详情</a>
                         </td>
                     </tr>
                     </tbody>

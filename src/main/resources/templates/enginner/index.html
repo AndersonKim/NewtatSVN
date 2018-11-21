@@ -47,7 +47,6 @@
 <script th:inline="javascript">
     // 基于准备好的dom，初始化echarts实例
     var myChart = echarts.init(document.getElementById('main'));
-
     var titleAdd="添加文件分布";
     var titleModify="修改文件分布";
     option = {
@@ -69,7 +68,7 @@
                 }
             },
             indicator: [
-                [($indicator)]
+                [(${indicator})]
             ]
         },
         series: [{
@@ -78,11 +77,15 @@
             // areaStyle: {normal: {}},
             data : [
                 {
-                    value : [[($addData)]],
+                    value : [
+                        [(${addData})]
+                    ],
                     name : titleAdd
                 },
                 {
-                    value : [[($modifyData)]],
+                    value : [
+                        [(${modifyData})]
+                    ],
                     name : titleModify
                 }
             ]

@@ -19,7 +19,7 @@ public class EchartsWriter {
      * @Date：2018/10/22
      * @Description：产生文件分布图的echarts数据
      */
-    public static void genRadar(String author, List<LogEntry> data) {
+    public static String[] genRadar(String author, List<LogEntry> data) {
         Engineer engineer = LogAnalyzer.extractFileByAuthor(author,data);
         engineer = LogAnalyzer.setEngineerAMType(engineer);
         //获取修改以及增加的文件类型的共有的类型
@@ -39,7 +39,7 @@ public class EchartsWriter {
             finalModifyMap.put(type, engineer.getModifyFileTypeCount().get(type));
         }
 
-
+        String[] result=new String[3];
         //最终生成数据
         /*
             indicator: [
@@ -64,11 +64,15 @@ public class EchartsWriter {
                 maxIndicator = finalModifyMap.get(type);
             }
         }
-        System.out.println("            indicator: [");
+        StringBuffer buffer=new StringBuffer();
+
+        //System.out.println("            indicator: [");
         for (String type : finalFileType) {
-            System.out.println("{ name: '" + type + "', max: " + maxIndicator + "},");
+            buffer.append("{ name: '" + type + "', max: " + maxIndicator + "},");
+            //System.out.println("{ name: '" + type + "', max: " + maxIndicator + "},");
         }
-        System.out.println("            ]");
+        result[0]=buffer.toString();
+        System.out.println(result[0]);
 
 /*
             data : [
@@ -82,15 +86,113 @@ public class EchartsWriter {
                 }
             ]
 */
+        StringBuffer add=new StringBuffer();
         for (String type : finalFileType) {
-            System.out.printf(finalAddMap.get(type) + ",");
+            add.append(finalAddMap.get(type) + ",");
+            //System.out.printf(finalAddMap.get(type) + ",");
         }
-        System.out.println();
+        result[1]=add.toString();
+        System.out.println(result[1]);
+        StringBuffer modify=new StringBuffer();
+
         for (String type : finalFileType) {
-            System.out.printf(finalModifyMap.get(type) + ",");
+            modify.append(finalModifyMap.get(type) + ",");
+            //System.out.printf(finalModifyMap.get(type) + ",");
         }
+        result[2]=modify.toString();
+        System.out.println(result[2]);
+
+        return result;
     }
 
+    public static String[] genRadar(Engineer inEngineer) {
+        Engineer engineer = inEngineer;
+        engineer = LogAnalyzer.setEngineerAMType(engineer);
+        //获取修改以及增加的文件类型的共有的类型
+        Set<String> addFileType = engineer.getAddFileTypeCount().keySet();
+        Set<String> modifyFileType = engineer.getModifyFileTypeCount().keySet();
+        Set<String> finalFileType = new HashSet<>();
+        for (String type : addFileType) {
+            if (modifyFileType.contains(type)) {
+                finalFileType.add(type);
+            }
+        }
+        //写入修改以及新增的map中
+        HashMap<String, Integer> finalAddMap = new HashMap<>();
+        HashMap<String, Integer> finalModifyMap = new HashMap<>();
+        for (String type : finalFileType) {
+            finalAddMap.put(type, engineer.getAddFileTypeCount().get(type));
+            finalModifyMap.put(type, engineer.getModifyFileTypeCount().get(type));
+        }
+
+        String[] result=new String[3];
+        //最终生成数据
+        /*
+            indicator: [
+                { name: 'jpg', max: 100},
+                { name: 'css', max: 100},
+                { name: 'pdf', max: 100},
+                { name: 'java', max: 100},
+                { name: 'jsp', max: 100},
+                { name: 'png', max: 100},
+                { name: 'doc', max: 100},
+                { name: 'js', max: 100},
+                { name: 'properties', max: 100},
+                { name: 'docx', max: 100}
+            ]
+*/
+        int maxIndicator = 0;
+        for (String type : finalFileType) {
+            if (finalAddMap.get(type) > maxIndicator) {
+                maxIndicator = finalAddMap.get(type);
+            }
+            if (finalModifyMap.get(type) > maxIndicator) {
+                maxIndicator = finalModifyMap.get(type);
+            }
+        }
+        StringBuffer buffer=new StringBuffer();
+
+        //System.out.println("            indicator: [");
+        for (String type : finalFileType) {
+            buffer.append("{ name: '" + type + "', max: " + maxIndicator + "},");
+            //System.out.println("{ name: '" + type + "', max: " + maxIndicator + "},");
+        }
+        result[0]=buffer.toString();
+        System.out.println(result[0]);
+
+/*
+            data : [
+                {
+                    value : [43, 10, 20, 35, 50, 10, 20, 35, 50, 10],
+                    name : titleAdd
+                },
+                {
+                    value : [43, 10, 20, 35, 50, 10, 20, 35, 50, 10],
+                    name : titleModify
+                }
+            ]
+*/
+        StringBuffer add=new StringBuffer();
+        for (String type : finalFileType) {
+            add.append(finalAddMap.get(type) + ",");
+            //System.out.printf(finalAddMap.get(type) + ",");
+        }
+        //todo 有可能没有,导致空指针
+        add.replace(add.lastIndexOf(","),add.length(),"");
+        result[1]=add.toString();
+        System.out.println(result[1]);
+        StringBuffer modify=new StringBuffer();
+
+        for (String type : finalFileType) {
+            modify.append(finalModifyMap.get(type) + ",");
+            //System.out.printf(finalModifyMap.get(type) + ",");
+        }
+        modify.replace(modify.lastIndexOf(","),modify.length(),"");
+        result[2]=modify.toString();
+        System.out.println(result[2]);
+
+        return result;
+    }
     /**
      * edit by AndersonKim
      *
