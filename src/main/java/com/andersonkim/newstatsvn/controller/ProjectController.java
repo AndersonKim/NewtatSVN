@@ -8,6 +8,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.io.File;
 
@@ -19,6 +20,15 @@ import java.io.File;
 @Controller
 @RequestMapping("/project")
 public class ProjectController {
+
+    @RequestMapping("/list")
+    @ResponseBody
+    public String list(String time) {
+        StringBuffer buffer=new StringBuffer();
+        buffer.append("this is a response"+time);
+        return buffer.toString();
+    }
+
     @RequestMapping("/{projectId}")
     public String projectIndex(Model model, @PathVariable("projectId") String projectId) {
         File file = DocumentConverter.getProjectList().get(Integer.parseInt(projectId));
